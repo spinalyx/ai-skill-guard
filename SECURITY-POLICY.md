@@ -45,7 +45,7 @@ The cloud rule: **fewest secrets, least privilege, restricted network.** Give a 
 
 1. **Source.** Install from official sources or from authors with a track record, a license and an active repository. A skill from a DM, Discord or an unknown website is high risk by default.
 2. **Read everything.** Not only `SKILL.md`, but every file in `scripts/`, `references/` and `hooks/`. If you cannot read code, have someone who can do it, or an agent in a separate session that does **not** have the skill installed.
-3. **Scan.** Run `skill-guard` before installing. Every `critical` or `high` finding needs an explanation before you continue.
+3. **Scan.** Run `ai-skill-guard` before installing. Every `critical` or `high` finding needs an explanation before you continue.
 4. **Pin the version.** Write down the exact commit or version you reviewed. Do not install "latest".
 5. **An update is a new install.** Before updating, look at what changed and scan again.
 6. **Never turn permissions off.** No `--dangerously-skip-permissions`, no "allow all". The agent should ask.
@@ -59,7 +59,7 @@ The cloud rule: **fewest secrets, least privilege, restricted network.** Give a 
 - [ ] I know who the author is and where the skill comes from
 - [ ] There is a license and it allows my use
 - [ ] Every file has been read, not just the description
-- [ ] `skill-guard` shows no unresolved `critical` or `high` findings
+- [ ] `ai-skill-guard` shows no unresolved `critical` or `high` findings
 - [ ] I know which internet addresses the skill sends data to, and why
 - [ ] The skill does not ask for cookies, passwords or turning permissions off
 - [ ] It does not add hooks, MCP servers or scheduled tasks without my knowledge
@@ -75,12 +75,12 @@ The cloud rule: **fewest secrets, least privilege, restricted network.** Give a 
 4. Check usage with your AI providers and recent commits in your repositories.
 5. Write down what happened so it does not happen again.
 
-## 7. Automated check: skill-guard
+## 7. Automated check: ai-skill-guard
 
-`skill-guard` is a small Python script with no dependencies. It reads a skill and looks for known dangerous patterns. **It never runs anything it scans.**
+`ai-skill-guard` is a small Python script with no dependencies. It reads a skill and looks for known dangerous patterns. **It never runs anything it scans.**
 
 ```bash
-python skill_guard.py path/to/skill
+python ai_skill_guard.py path/to/skill
 ```
 
 It checks for download-and-run commands, hidden and encoded code, throwaway endpoints used to receive stolen data, reading of keys, passwords and cookies, crypto wallets, persistence, changes to agent settings (hooks, MCP, permissions), hidden instructions and invisible Unicode characters, dangerous deletion, privilege escalation, package install hooks, executables, symbolic links and ZIP archives that write outside their folder. At the end it lists every internet address the skill mentions.

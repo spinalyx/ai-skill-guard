@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""skill-guard: a static safety check for AI agent skills before you install them.
+"""ai-skill-guard: a static safety check for AI agent skills before you install them.
 
 Scans a skill folder (Claude Code / Agent Skills format, plugins, or any folder of
 prompts and scripts) or a .zip / .skill archive. It never runs, imports or installs
 anything it scans. Python 3.9+, standard library only.
 
 Usage:
-    python skill_guard.py PATH [--json] [--fail-on critical|high|medium|low|never]
+    python ai_skill_guard.py PATH [--json] [--fail-on critical|high|medium|low|never]
 
 Exit codes: 0 = nothing at or above --fail-on, 1 = findings at or above it, 2 = error.
 A clean result means "no known red flags", not "safe". Always read the code too.
@@ -23,7 +23,7 @@ from dataclasses import asdict, dataclass, field
 from pathlib import Path, PurePosixPath
 from urllib.parse import urlparse
 
-__version__ = "0.2.0"
+__version__ = "0.2.1"
 
 SEVERITIES = ["info", "low", "medium", "high", "critical"]
 RANK = {s: i for i, s in enumerate(SEVERITIES)}
@@ -406,7 +406,7 @@ def scan(target: str) -> Report:
 # ---------------------------------------------------------------- output
 
 def print_text(rep: Report) -> None:
-    print(f"skill-guard {rep.version}  |  {rep.target}")
+    print(f"ai-skill-guard {rep.version}  |  {rep.target}")
     if rep.skill.get("name"):
         print(f"skill: {rep.skill['name']}")
     print(f"files scanned: {rep.files_scanned}")
@@ -429,12 +429,12 @@ def main(argv=None) -> int:
             stream.reconfigure(encoding="utf-8", errors="replace")
         except (AttributeError, ValueError):
             pass
-    ap = argparse.ArgumentParser(prog="skill-guard", description="Static safety check for AI agent skills. Never runs the code it scans.")
+    ap = argparse.ArgumentParser(prog="ai-skill-guard", description="Static safety check for AI agent skills. Never runs the code it scans.")
     ap.add_argument("path", help="skill folder, plugin folder, single file, or .zip/.skill archive")
     ap.add_argument("--json", action="store_true", help="machine-readable output")
     ap.add_argument("--fail-on", default="high", choices=SEVERITIES[1:] + ["never"],
                     help="lowest severity that makes the exit code 1 (default: high)")
-    ap.add_argument("--version", action="version", version=f"skill-guard {__version__}")
+    ap.add_argument("--version", action="version", version=f"ai-skill-guard {__version__}")
     args = ap.parse_args(argv)
     try:
         rep = scan(args.path)

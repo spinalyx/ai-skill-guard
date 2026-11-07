@@ -1,4 +1,4 @@
-# skill-guard
+# ai-skill-guard
 
 A static safety check for AI agent skills, plugins and prompt packs **before you install them**.
 
@@ -6,7 +6,7 @@ It reads every file in a skill folder or `.zip` / `.skill` archive and flags kno
 
 ## Which agents it works with
 
-skill-guard does not depend on any one agent. It reads files, so it works on anything you would hand to an AI agent: a skill in the `SKILL.md` format, a plugin, a folder of prompts or rules, an MCP server's source code, or a plain script.
+ai-skill-guard does not depend on any one agent. It reads files, so it works on anything you would hand to an AI agent: a skill in the `SKILL.md` format, a plugin, a folder of prompts or rules, an MCP server's source code, or a plain script.
 
 | | Coverage |
 |---|---|
@@ -20,13 +20,13 @@ The agent-specific checks are deepest for Claude Code, where it was built and te
 
 **1. Have Python.** Check with `python --version` (on Windows you can also use `py --version`). If it is missing, install it from [python.org](https://www.python.org/downloads/). Nothing else is needed.
 
-**2. Get skill-guard.** Either clone it:
+**2. Get ai-skill-guard.** Either clone it:
 
 ```bash
-git clone https://github.com/spinalyx/skill-guard
+git clone https://github.com/spinalyx/ai-skill-guard
 ```
 
-or click **Code → Download ZIP** on this page and unzip it. You only need `skill_guard.py`.
+or click **Code → Download ZIP** on this page and unzip it. You only need `ai_skill_guard.py`.
 
 **3. Get the skill you want to check, without installing it.** Download it into an ordinary folder, for example your Downloads folder, and not into your skills folder (`~/.claude/skills/` or a project's `.claude/skills/`). For a skill on GitHub:
 
@@ -39,7 +39,7 @@ Do not run any install or setup command from that repository yet.
 **4. Scan it.**
 
 ```bash
-python skill-guard/skill_guard.py SKILL-REPO
+python ai-skill-guard/ai_skill_guard.py SKILL-REPO
 ```
 
 You can also point it at a `.zip` or `.skill` file, at a single file, or at a skill you already installed, to check it after the fact.
@@ -47,7 +47,7 @@ You can also point it at a `.zip` or `.skill` file, at a single file, or at a sk
 ## Reading the report
 
 ```text
-skill-guard 0.2.0  |  demo-skill
+ai-skill-guard 0.2.1  |  demo-skill
 skill: pretty-notes
 files scanned: 2
 findings: critical 1, high 1, low 1
@@ -81,15 +81,15 @@ Then check the list of network hosts: every address there is a place your data c
 ## Options and exit codes
 
 ```bash
-python skill_guard.py path/to/skill --json              # machine-readable output
-python skill_guard.py path/to/skill --fail-on medium    # stricter exit code
-python skill_guard.py path/to/skill --fail-on never     # always exit 0
+python ai_skill_guard.py path/to/skill --json              # machine-readable output
+python ai_skill_guard.py path/to/skill --fail-on medium    # stricter exit code
+python ai_skill_guard.py path/to/skill --fail-on never     # always exit 0
 ```
 
 Exit codes: `0` nothing at or above `--fail-on` (default `high`), `1` findings at or above it, `2` error (for example, the path does not exist). That makes it usable in CI, for example to block a skill from being added to a shared repository:
 
 ```yaml
-- run: python skill_guard.py skills/new-skill
+- run: python ai_skill_guard.py skills/new-skill
 ```
 
 ## What it looks for
