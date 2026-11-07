@@ -124,6 +124,12 @@ Scanning this repository flags itself, because it contains every pattern it look
 python -m unittest discover -s tests
 ```
 
+## Author
+
+Built by **Aleksandar Milinčić** ([LinkedIn](https://www.linkedin.com/in/aleksandarmilincic)), founder of Agoga, who runs a team of AI agents and wanted to know exactly what each new skill would do on his machine before saying yes to it.
+
+Found a pattern it misses, or a false alarm? [Open an issue](https://github.com/spinalyx/ai-skill-guard/issues).
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
