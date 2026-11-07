@@ -1,6 +1,6 @@
 # Security policy for AI agent skills
 
-**Version 0.1 · 7 November 2026 · Agoga**
+**Version 0.1 · 7 November 2026**
 
 This policy is for anyone who installs skills, plugins or MCP servers for AI agents (Claude Code, Claude Desktop, Cursor, Codex and the like). It is written for people who are not programmers but who decide what runs on their machine.
 

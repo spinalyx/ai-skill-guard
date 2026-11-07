@@ -126,7 +126,9 @@ python -m unittest discover -s tests
 
 ## Author
 
-Built by **Aleksandar Milinčić** ([LinkedIn](https://www.linkedin.com/in/aleksandarmilincic)), founder of Agoga, who runs a team of AI agents and wanted to know exactly what each new skill would do on his machine before saying yes to it.
+Built by **Aleksandar Milinčić** ([LinkedIn](https://www.linkedin.com/in/aleksandarmilincic)). His PhD examined the impact of AI on the organizational culture of software companies. His current research covers bias in large language models, psychometrics of AI agents, and orchestration and teamwork between agents and people.
+
+ai-skill-guard came out of running his own team of AI agents and wanting to know exactly what each new skill would do on his machine before saying yes to it.
 
 Found a pattern it misses, or a false alarm? [Open an issue](https://github.com/spinalyx/ai-skill-guard/issues).
 
