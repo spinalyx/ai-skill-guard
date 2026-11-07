@@ -23,7 +23,7 @@ from dataclasses import asdict, dataclass, field
 from pathlib import Path, PurePosixPath
 from urllib.parse import urlparse
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 SEVERITIES = ["info", "low", "medium", "high", "critical"]
 RANK = {s: i for i, s in enumerate(SEVERITIES)}
@@ -114,14 +114,20 @@ RULES: list[Rule] = [
 
     # Tampering with the agent itself.
     r("AGENT-BYPASS", "agent-config", "critical",
-      r"dangerously-skip-permissions|bypassPermissions|--yolo\b|dangerously_skip|skip-permissions",
-      "Turns off the agent's permission prompts, so it acts without asking you."),
+      r"dangerously-skip-permissions|bypassPermissions|--yolo\b|dangerously_skip|skip-permissions"
+      r"|dangerously-bypass-approvals-and-sandbox|danger-full-access|approval_policy\s*=\s*[\"']never[\"']"
+      r"|--approval-mode[=\s]+yolo|[\"']autoAccept[\"']\s*:\s*true",
+      "Turns off the agent's permission prompts or sandbox, so it acts without asking you."),
     r("AGENT-CONFIG", "agent-config", "high",
       r"\.claude[/\\]settings(\.local)?\.json|[\"']hooks[\"']\s*:|PreToolUse|PostToolUse|UserPromptSubmit|SessionStart"
-      r"|[\"']mcpServers[\"']|\.mcp\.json|claude_desktop_config\.json|[\"']permissions[\"']\s*:\s*\{|allowedTools",
-      "Edits agent settings, hooks or MCP servers. Hooks run automatically on every action."),
+      r"|[\"']mcpServers[\"']|\.mcp\.json|claude_desktop_config\.json|[\"']permissions[\"']\s*:\s*\{|allowedTools"
+      r"|\.codex[/\\]config\.toml|\[mcp_servers|\.cursor[/\\](mcp\.json|hooks\.json)|\.gemini[/\\]settings\.json"
+      r"|\.vscode[/\\](settings|mcp)\.json|\.windsurf[/\\]|\.continue[/\\]config",
+      "Edits agent settings, hooks or MCP servers (Claude, Codex, Cursor, Gemini, VS Code and others)."
+      " Hooks run automatically on every action."),
     r("AGENT-MEMORY", "agent-config", "medium",
-      r"(write|append|edit|modify|add)[^\n]{0,40}(CLAUDE\.md|AGENTS\.md|MEMORY\.md|\.cursorrules)",
+      r"(write|append|edit|modify|add)[^\n]{0,40}(CLAUDE\.md|AGENTS\.md|GEMINI\.md|MEMORY\.md|\.cursorrules"
+      r"|\.cursor[/\\]rules|copilot-instructions\.md|\.windsurfrules)",
       "Changes the agent's standing instructions or memory, which affects every later session."),
 
     # Prompt injection: instructions aimed at the agent, against the user.

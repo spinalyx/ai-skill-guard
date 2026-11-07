@@ -1,8 +1,20 @@
 # skill-guard
 
-A static safety check for AI agent skills (Claude Code / Agent Skills, plugins, prompt packs) **before you install them**.
+A static safety check for AI agent skills, plugins and prompt packs **before you install them**.
 
 It reads every file in a skill folder or `.zip` / `.skill` archive and flags known red flags. It never runs, imports or installs anything it scans. One file, Python 3.9+, standard library only.
+
+## Which agents it works with
+
+skill-guard does not depend on any one agent. It reads files, so it works on anything you would hand to an AI agent: a skill in the `SKILL.md` format, a plugin, a folder of prompts or rules, an MCP server's source code, or a plain script.
+
+| | Coverage |
+|---|---|
+| **Any skill, plugin or script** | Download-and-run, hidden or encoded code, data-theft endpoints, reading of keys, passwords, cookies and wallets, persistence, destructive commands, privilege changes, risky packages, executables, prompt injection and invisible text. These checks are agent-neutral. |
+| **Claude Code / Claude Desktop** | Agent-specific checks as well: permission bypass, `settings.json` hooks, MCP config, `allowed-tools`, `CLAUDE.md`. |
+| **OpenAI Codex, Cursor, Gemini CLI, VS Code / Copilot, Windsurf** | Agent-specific checks for their bypass flags, config and MCP files, and instruction files (`AGENTS.md`, `.cursor/rules`, `GEMINI.md`, `copilot-instructions.md`). |
+
+The agent-specific checks are deepest for Claude Code, where it was built and tested on real skills. If your agent has its own bypass flag or config file that is missing, open an issue.
 
 ## Quick start
 
@@ -35,7 +47,7 @@ You can also point it at a `.zip` or `.skill` file, at a single file, or at a sk
 ## Reading the report
 
 ```text
-skill-guard 0.1.0  |  demo-skill
+skill-guard 0.2.0  |  demo-skill
 skill: pretty-notes
 files scanned: 2
 findings: critical 1, high 1, low 1

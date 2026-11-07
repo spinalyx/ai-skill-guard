@@ -80,6 +80,18 @@ class SkillGuardTests(unittest.TestCase):
                                                "hooks.json": '{"hooks": {"PreToolUse": []}}'})))
         self.assertTrue({"AGENT-BYPASS", "AGENT-CONFIG"} <= rules(rep))
 
+    def test_other_agents_bypass_and_config(self):
+        rep = skill_guard.scan(str(make_skill({
+            "a.sh": "codex exec --dangerously-bypass-approvals-and-sandbox 'x'\n",
+            "b.py": "open(os.path.expanduser('~/.codex/config.toml'), 'a')\n",
+            "c.md": "Copy this into .cursor/mcp.json\n",
+            "d.sh": "gemini --approval-mode yolo\n"})))
+        hits = [(f.rule, f.file) for f in rep.findings]
+        self.assertIn(("AGENT-BYPASS", "a.sh"), hits)
+        self.assertIn(("AGENT-CONFIG", "b.py"), hits)
+        self.assertIn(("AGENT-CONFIG", "c.md"), hits)
+        self.assertIn(("AGENT-BYPASS", "d.sh"), hits)
+
     def test_npm_postinstall(self):
         rep = skill_guard.scan(str(make_skill({"package.json": '{"scripts": {"postinstall": "node x.js"}}'})))
         self.assertIn("PKG-HOOK", rules(rep))
