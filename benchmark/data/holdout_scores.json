@@ -1,0 +1,149 @@
+{
+ "g021_block": {
+  "groups": {
+   "benign": "25/199",
+   "gen_CI": "20/50",
+   "gen_MIXED": "17/50",
+   "gen_PI": "16/49",
+   "wild": "36/132"
+  },
+  "recall": 0.317,
+  "fpr": 0.126,
+  "precision": 0.781,
+  "f1": 0.451,
+  "tp": 89,
+  "P": 281,
+  "fp": 25,
+  "N": 199
+ },
+ "g021_attn": {
+  "groups": {
+   "benign": "38/199",
+   "gen_CI": "27/50",
+   "gen_MIXED": "30/50",
+   "gen_PI": "32/49",
+   "wild": "70/132"
+  },
+  "recall": 0.566,
+  "fpr": 0.191,
+  "precision": 0.807,
+  "f1": 0.665,
+  "tp": 159,
+  "P": 281,
+  "fp": 38,
+  "N": 199
+ },
+ "g030_block": {
+  "groups": {
+   "benign": "22/199",
+   "gen_CI": "33/50",
+   "gen_MIXED": "29/50",
+   "gen_PI": "28/49",
+   "wild": "80/132"
+  },
+  "recall": 0.605,
+  "fpr": 0.111,
+  "precision": 0.885,
+  "f1": 0.719,
+  "tp": 170,
+  "P": 281,
+  "fp": 22,
+  "N": 199
+ },
+ "g030_attn": {
+  "groups": {
+   "benign": "37/199",
+   "gen_CI": "39/50",
+   "gen_MIXED": "38/50",
+   "gen_PI": "35/49",
+   "wild": "104/132"
+  },
+  "recall": 0.769,
+  "fpr": 0.186,
+  "precision": 0.854,
+  "f1": 0.809,
+  "tp": 216,
+  "P": 281,
+  "fp": 37,
+  "N": 199
+ },
+ "ss_block": {
+  "groups": {
+   "benign": "24/199",
+   "gen_CI": "20/50",
+   "gen_MIXED": "27/50",
+   "gen_PI": "8/49",
+   "wild": "40/132"
+  },
+  "recall": 0.338,
+  "fpr": 0.121,
+  "precision": 0.798,
+  "f1": 0.475,
+  "tp": 95,
+  "P": 281,
+  "fp": 24,
+  "N": 199
+ },
+ "ss_attn": {
+  "groups": {
+   "benign": "67/199",
+   "gen_CI": "41/50",
+   "gen_MIXED": "36/50",
+   "gen_PI": "22/49",
+   "wild": "66/132"
+  },
+  "recall": 0.587,
+  "fpr": 0.337,
+  "precision": 0.711,
+  "f1": 0.643,
+  "tp": 165,
+  "P": 281,
+  "fp": 67,
+  "N": 199
+ },
+ "excluded_skills": [
+  "ai-it-department-wistec-core",
+  "auto-updater-qahxnvcnurj",
+  "bird-wo",
+  "clawdhub-8rhr8q1zgy",
+  "clawdhub-yskkhfqscj",
+  "clawdhub-za29sitx9w",
+  "deep-research-rio7el6w",
+  "ethereum-gas-tracker-k51pi",
+  "get-weather",
+  "gog-g7ksras",
+  "letssendit",
+  "nano-banana-pro-mauf71",
+  "nano-pdf-q3e3z",
+  "omnicogg",
+  "single-cell-multi-omics-integration__PI_B6",
+  "wacli-ayv",
+  "yahoo-finance-ztbyq",
+  "youtube-summarize-35o20",
+  "youtube-watcher-w",
+  "youtube-watcher-z"
+ ],
+ "kept": 480,
+ "mcnemar": {
+  "g030_vs_ss_malicious": [
+   "{(True, True): 78, (False, False): 94, (True, False): 92, (False, True): 17}",
+   0.0
+  ],
+  "g030_vs_g021_malicious": [
+   "{(True, True): 84, (False, False): 106, (True, False): 86, (False, True): 5}",
+   0.0
+  ],
+  "g030_vs_ss_benign": [
+   "{(False, False): 162, (True, False): 13, (False, True): 15, (True, True): 9}",
+   0.850107
+  ],
+  "g030_vs_g021_benign": [
+   "{(False, False): 171, (True, True): 19, (False, True): 6, (True, False): 3}",
+   0.504985
+  ]
+ },
+ "either": [
+  187,
+  37
+ ]
+}

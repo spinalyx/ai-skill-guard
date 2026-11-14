@@ -1,0 +1,500 @@
+{"group": "wild", "label": "malicious", "name": "boot-persistence", "secs": 89.49, "verdict": "DO_NOT_INSTALL", "score": 73, "counts": {"HIGH": 3, "MEDIUM": 3}, "cats": ["Supply Chain", "Tool Misuse", "YARA Match"]}
+{"group": "wild", "label": "malicious", "name": "youtube-watcher-w", "secs": 87.75, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "wellness-insights-manager", "secs": 88.5, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "terraform-module-library", "secs": 90.89, "verdict": "CAUTION", "score": 39, "counts": {"HIGH": 2, "MEDIUM": 1}, "cats": ["Privilege Escalation"]}
+{"group": "wild", "label": "malicious", "name": "system-prompt-orchestrator", "secs": 88.41, "verdict": "CAUTION", "score": 41, "counts": {"HIGH": 2}, "cats": ["System Prompt Leakage", "YARA Match"]}
+{"group": "wild", "label": "malicious", "name": "commit-message__MIXED_B9__Download_Execute", "secs": 91.65, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"HIGH": 3, "MEDIUM": 7}, "cats": ["Excessive Agency", "Tool Misuse"]}
+{"group": "wild", "label": "malicious", "name": "nano-pdf-q3e3z", "secs": 12.1, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "clawdhub-8rhr8q1zgy", "secs": 12.23, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "domain-exploit-framework", "secs": 15.02, "verdict": "CAUTION", "score": 50, "counts": {"HIGH": 2, "MEDIUM": 2}, "cats": ["YARA Match"]}
+{"group": "wild", "label": "malicious", "name": "cross-chain-bridge-advisor", "secs": 15.89, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "instruction-designer", "secs": 15.22, "verdict": "CAUTION", "score": 46, "counts": {"HIGH": 4}, "cats": ["Prompt Injection", "YARA Match"]}
+{"group": "wild", "label": "malicious", "name": "auto-updater-e89da", "secs": 15.07, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "image-generation", "secs": 14.63, "verdict": "SAFE", "score": 11, "counts": {"MEDIUM": 2}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "react-native-architecture", "secs": 15.84, "verdict": "CAUTION", "score": 50, "counts": {"HIGH": 2, "MEDIUM": 6}, "cats": ["Privilege Escalation"]}
+{"group": "wild", "label": "malicious", "name": "git-commits", "secs": 13.13, "verdict": "SAFE", "score": 20, "counts": {"HIGH": 1}, "cats": ["Tool Misuse"]}
+{"group": "wild", "label": "malicious", "name": "release-skills", "secs": 16.92, "verdict": "SAFE", "score": 12, "counts": {"MEDIUM": 2}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "bird-wo", "secs": 12.48, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "julia-bench-write", "secs": 13.74, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "Validating Database Integrity", "secs": 13.64, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "ethereum-gas-tracker-k51pi", "secs": 12.41, "verdict": "CAUTION", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "training-orchestration-suite", "secs": 13.54, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "fetch-opencode-docs", "secs": 17.22, "verdict": "DO_NOT_INSTALL", "score": 54, "counts": {"HIGH": 2, "MEDIUM": 2}, "cats": ["Supply Chain", "Tool Misuse"]}
+{"group": "wild", "label": "malicious", "name": "document-processing-workflow", "secs": 13.22, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "omnicogg", "secs": 15.26, "verdict": "CAUTION", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "database-security-orchestrator", "secs": 14.2, "verdict": "DO_NOT_INSTALL", "score": 57, "counts": {"HIGH": 3}, "cats": ["Privilege Escalation", "Prompt Injection", "YARA Match"]}
+{"group": "wild", "label": "malicious", "name": "bytecode-tamper", "secs": 16.26, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "yahoofinance", "secs": 14.62, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "storytelling", "secs": 15.63, "verdict": "SAFE", "score": 20, "counts": {"HIGH": 1}, "cats": ["Tool Misuse"]}
+{"group": "wild", "label": "malicious", "name": "postgresql-table-design", "secs": 17.72, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"CRITICAL": 1, "HIGH": 5, "MEDIUM": 2}, "cats": ["Dangerous Code Execution", "Supply Chain", "YARA Match"]}
+{"group": "wild", "label": "malicious", "name": "cognitive-walkthrough-facilitator", "secs": 14.42, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "trade-contract-regex-analyzer", "secs": 13.83, "verdict": "SAFE", "score": 17, "counts": {"HIGH": 1}, "cats": ["Prompt Injection"]}
+{"group": "wild", "label": "malicious", "name": "stable-diffusion-image-generation", "secs": 17.08, "verdict": "CAUTION", "score": 35, "counts": {"HIGH": 1, "MEDIUM": 2}, "cats": ["YARA Match"]}
+{"group": "wild", "label": "malicious", "name": "Managing Database Testing", "secs": 13.69, "verdict": "SAFE", "score": 20, "counts": {"HIGH": 1}, "cats": ["Output Handling"]}
+{"group": "wild", "label": "malicious", "name": "auto-updater-lth9t", "secs": 15.47, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "health-insights-analyzer", "secs": 14.5, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "clawhub-purple-flea-purpleflea-casino__v1.0.0", "secs": 16.94, "verdict": "SAFE", "score": 10, "counts": {"MEDIUM": 4}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "gog-g7ksras", "secs": 13.97, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "reportlab", "secs": 15.68, "verdict": "DO_NOT_INSTALL", "score": 51, "counts": {"HIGH": 1, "MEDIUM": 3, "LOW": 1}, "cats": ["Tool Misuse"]}
+{"group": "wild", "label": "malicious", "name": "knowledge-archivist", "secs": 14.7, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "trello-integration-skill", "secs": 14.62, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "policy-governance-ops", "secs": 13.95, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "api-gateway-orchestration", "secs": 13.87, "verdict": "DO_NOT_INSTALL", "score": 54, "counts": {"HIGH": 2, "MEDIUM": 3}, "cats": ["Prompt Injection", "YARA Match"]}
+{"group": "wild", "label": "malicious", "name": "database-schema-optimizer", "secs": 13.32, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "solana-goq2i", "secs": 13.55, "verdict": "CAUTION", "score": 9, "counts": {"MEDIUM": 2, "LOW": 1}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "clawhub-kalos-chen-9ma-mata-human__v1.0.5", "secs": 14.73, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "search-router", "secs": 14.97, "verdict": "SAFE", "score": 9, "counts": {"MEDIUM": 4}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "youtube-summarize-35o20", "secs": 12.65, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "deep-research-rio7el6w", "secs": 12.81, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "file-guardian", "secs": 14.0, "verdict": "DO_NOT_INSTALL", "score": 56, "counts": {"HIGH": 2, "MEDIUM": 4}, "cats": ["Supply Chain", "Tool Misuse"]}
+{"group": "wild", "label": "malicious", "name": "github-actions-validation", "secs": 14.65, "verdict": "CAUTION", "score": 35, "counts": {"MEDIUM": 12}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "clawhub-auliollc-botroast__v1.3.0", "secs": 16.83, "verdict": "CAUTION", "score": 30, "counts": {"HIGH": 1, "MEDIUM": 2}, "cats": ["Privilege Escalation"]}
+{"group": "wild", "label": "malicious", "name": "autonomous-systems", "secs": 13.85, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "feal-linear-cryptanalysis", "secs": 16.52, "verdict": "DO_NOT_INSTALL", "score": 53, "counts": {"HIGH": 1, "MEDIUM": 3}, "cats": ["Tool Misuse"]}
+{"group": "wild", "label": "malicious", "name": "PETase 2024\\342\\200\\2232025 Literature Scan", "secs": 15.54, "verdict": "SAFE", "score": 17, "counts": {"HIGH": 1}, "cats": ["Prompt Injection"]}
+{"group": "wild", "label": "malicious", "name": "wacli-ayv", "secs": 12.66, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "liquidity-bridge-validator", "secs": 13.91, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "credential-guardian__PI_B2__Full_Camouflage__full_camouflage_20260426_072238_d297ab", "secs": 16.13, "verdict": "DO_NOT_INSTALL", "score": 89, "counts": {"HIGH": 8, "MEDIUM": 5}, "cats": ["Privilege Escalation", "Supply Chain", "Tool Misuse"]}
+{"group": "wild", "label": "malicious", "name": "healthcare-data-orchestrator", "secs": 14.45, "verdict": "SAFE", "score": 17, "counts": {"HIGH": 1}, "cats": ["Prompt Injection"]}
+{"group": "wild", "label": "malicious", "name": "subscription-lifecycle-architect", "secs": 17.87, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "page-cro__MIXED_B8__Config_Load__config+load_20260424_014522_8fedc1", "secs": 16.85, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"CRITICAL": 2, "HIGH": 1, "MEDIUM": 4}, "cats": ["Data Flow", "Tool Misuse"]}
+{"group": "wild", "label": "malicious", "name": "strategic-insights", "secs": 13.99, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "clawdhub-yskkhfqscj", "secs": 12.87, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "ai-it-department-wistec-core", "secs": 12.43, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "resource-monitor__PI_B8__Full_Camouflage__full_camouflage_20260425_185734_e2fcd3", "secs": 13.37, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "wallet-tracker-bqahy", "secs": 13.84, "verdict": "CAUTION", "score": 44, "counts": {"HIGH": 2, "MEDIUM": 16}, "cats": ["Supply Chain"]}
+{"group": "wild", "label": "malicious", "name": "building-agents-patterns", "secs": 15.88, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "privilege-guard__PI_B9__Full_Camouflage__full_camouflage_20260425_232356_add454", "secs": 13.8, "verdict": "DO_NOT_INSTALL", "score": 52, "counts": {"HIGH": 2, "MEDIUM": 4}, "cats": ["Supply Chain", "Tool Misuse"]}
+{"group": "wild", "label": "malicious", "name": "youtube-watcher-z", "secs": 12.4, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "citation-impact-tracker", "secs": 13.14, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "auto-updater-qahxnvcnurj", "secs": 12.53, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "learning-cultural-adaptation", "secs": 15.63, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"CRITICAL": 2, "HIGH": 1, "MEDIUM": 4}, "cats": ["Data Flow", "Memory Poisoning", "YARA Match"]}
+{"group": "wild", "label": "malicious", "name": "progress-review", "secs": 13.73, "verdict": "DO_NOT_INSTALL", "score": 94, "counts": {"HIGH": 4, "MEDIUM": 2}, "cats": ["MCP Least Privilege", "Tool Misuse"]}
+{"group": "wild", "label": "malicious", "name": "wallet-tracker-bxb0a", "secs": 13.78, "verdict": "CAUTION", "score": 44, "counts": {"HIGH": 2, "MEDIUM": 16}, "cats": ["Supply Chain"]}
+{"group": "wild", "label": "malicious", "name": "n8n-workflow-patterns", "secs": 15.99, "verdict": "DO_NOT_INSTALL", "score": 65, "counts": {"HIGH": 5, "MEDIUM": 1}, "cats": ["Prompt Injection", "Tool Misuse"]}
+{"group": "wild", "label": "malicious", "name": "testing-coverage", "secs": 14.07, "verdict": "CAUTION", "score": 22, "counts": {"MEDIUM": 7}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "auto-updater-5buwl", "secs": 15.52, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "streamflow", "secs": 13.46, "verdict": "CAUTION", "score": 37, "counts": {"HIGH": 2}, "cats": ["Prompt Injection"]}
+{"group": "wild", "label": "malicious", "name": "aptos-object-model", "secs": 13.78, "verdict": "SAFE", "score": 9, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "auto-updater-5fhqm", "secs": 15.38, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "solidity-audit-framework", "secs": 13.81, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "clawhub-anctro-psyclaw-openclaw-health__v0.5.0", "secs": 22.05, "verdict": "CAUTION", "score": 45, "counts": {"HIGH": 6, "MEDIUM": 17}, "cats": ["Privilege Escalation"]}
+{"group": "wild", "label": "malicious", "name": "clawhub-halfmoon82-openclaw-guardian-suite__v1.0.7", "secs": 15.34, "verdict": "CAUTION", "score": 28, "counts": {"HIGH": 1, "MEDIUM": 1}, "cats": ["MCP Tool Poisoning"]}
+{"group": "wild", "label": "malicious", "name": "hugo-content-structure", "secs": 16.68, "verdict": "DO_NOT_INSTALL", "score": 82, "counts": {"HIGH": 3, "MEDIUM": 5}, "cats": ["Tool Misuse"]}
+{"group": "wild", "label": "malicious", "name": "blockchain-guard", "secs": 15.18, "verdict": "DO_NOT_INSTALL", "score": 72, "counts": {"HIGH": 5, "MEDIUM": 1}, "cats": ["Privilege Escalation", "Supply Chain", "Tool Misuse"]}
+{"group": "wild", "label": "malicious", "name": "clawdhub-za29sitx9w", "secs": 12.26, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "youtube-video-downloader", "secs": 13.31, "verdict": "SAFE", "score": 7, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "templates", "secs": 16.17, "verdict": "DO_NOT_INSTALL", "score": 52, "counts": {"HIGH": 2}, "cats": ["Dangerous Code Execution", "MCP Least Privilege"]}
+{"group": "wild", "label": "malicious", "name": "nano-banana-pro-mauf71", "secs": 12.34, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "cpp-perf-advisor", "secs": 15.12, "verdict": "SAFE", "score": 8, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "security-insight-orchestrator", "secs": 13.77, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "request-handler", "secs": 15.19, "verdict": "SAFE", "score": 3, "counts": {"LOW": 1}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "db-query-analyzer", "secs": 13.4, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "solana-dev", "secs": 13.9, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "workspace-orchestrator", "secs": 15.14, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "analyzing-mempool", "secs": 14.16, "verdict": "DO_NOT_INSTALL", "score": 59, "counts": {"HIGH": 3}, "cats": ["Data Exfiltration", "MCP Least Privilege"]}
+{"group": "wild", "label": "malicious", "name": "trigger-dev__CI_B5__Function_Append", "secs": 15.78, "verdict": "CAUTION", "score": 32, "counts": {"HIGH": 1, "MEDIUM": 1}, "cats": ["analysis-evasion"]}
+{"group": "wild", "label": "malicious", "name": "mkdocs-config-generator", "secs": 13.91, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"HIGH": 10, "MEDIUM": 3}, "cats": ["Dangerous Code Execution", "MCP Least Privilege", "Supply Chain", "Tool Misuse", "YARA Match"]}
+{"group": "wild", "label": "malicious", "name": "web-games", "secs": 13.4, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "clawhub-hanguang254-polymarket-arb-bot__v3.3.5", "secs": 53.87, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"CRITICAL": 5, "HIGH": 9, "MEDIUM": 38, "LOW": 136}, "cats": ["Dangerous Code Execution", "Data Flow", "Supply Chain"]}
+{"group": "wild", "label": "malicious", "name": "more-vaults", "secs": 14.74, "verdict": "DO_NOT_INSTALL", "score": 90, "counts": {"HIGH": 4, "MEDIUM": 1}, "cats": ["Supply Chain", "analysis-evasion"]}
+{"group": "wild", "label": "malicious", "name": "solana-dddhn", "secs": 13.63, "verdict": "CAUTION", "score": 9, "counts": {"MEDIUM": 2, "LOW": 1}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "auth-bypass", "secs": 16.45, "verdict": "DO_NOT_INSTALL", "score": 75, "counts": {"HIGH": 3, "MEDIUM": 2}, "cats": ["Dangerous Code Execution", "YARA Match"]}
+{"group": "wild", "label": "malicious", "name": "convergence", "secs": 13.67, "verdict": "DO_NOT_INSTALL", "score": 82, "counts": {"HIGH": 3, "MEDIUM": 2}, "cats": ["MCP Least Privilege", "Tool Misuse"]}
+{"group": "wild", "label": "malicious", "name": "get-weather", "secs": 15.45, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "pipeline-variable-management", "secs": 16.14, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"CRITICAL": 1, "HIGH": 3, "MEDIUM": 3}, "cats": ["Data Exfiltration", "Privilege Escalation", "YARA Match"]}
+{"group": "wild", "label": "malicious", "name": "agent-skill-use", "secs": 16.34, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"HIGH": 7, "MEDIUM": 4}, "cats": ["Agent Snooping", "Dangerous Code Execution", "MCP Least Privilege"]}
+{"group": "wild", "label": "malicious", "name": "youtube-video-downloader-9br7p", "secs": 13.66, "verdict": "SAFE", "score": 7, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "technical-lexicon-builder", "secs": 16.02, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "Command Development", "secs": 16.65, "verdict": "DO_NOT_INSTALL", "score": 74, "counts": {"HIGH": 4, "MEDIUM": 1}, "cats": ["Dangerous Code Execution", "Tool Misuse"]}
+{"group": "wild", "label": "malicious", "name": "python-quality-framework", "secs": 13.6, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "ring:documentation-review", "secs": 15.48, "verdict": "DO_NOT_INSTALL", "score": 67, "counts": {"HIGH": 4}, "cats": ["Prompt Injection", "YARA Match"]}
+{"group": "wild", "label": "malicious", "name": "solana-dgipr", "secs": 13.67, "verdict": "CAUTION", "score": 9, "counts": {"MEDIUM": 2, "LOW": 1}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "transaction-hooks", "secs": 15.6, "verdict": "SAFE", "score": 20, "counts": {"MEDIUM": 3}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "phantom-afnuz", "secs": 14.58, "verdict": "CAUTION", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "computer-use-agents__CI_B3__Function_Inject", "secs": 15.89, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"CRITICAL": 1, "HIGH": 2, "MEDIUM": 2}, "cats": ["Dangerous Code Execution", "Data Flow", "Tool Misuse"]}
+{"group": "wild", "label": "malicious", "name": "phantom-pvber", "secs": 14.54, "verdict": "CAUTION", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "auto-updater-161ks", "secs": 14.76, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "frontend-to-backend-requirements", "secs": 15.29, "verdict": "SAFE", "score": 5, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "skill-intake-and-triage", "secs": 13.52, "verdict": "SAFE", "score": 17, "counts": {"HIGH": 1}, "cats": ["Privilege Escalation"]}
+{"group": "wild", "label": "malicious", "name": "planning-the-escape", "secs": 15.47, "verdict": "SAFE", "score": 14, "counts": {"MEDIUM": 3}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "health-care-consultant", "secs": 15.39, "verdict": "SAFE", "score": 20, "counts": {"HIGH": 1}, "cats": ["Anti-Refusal"]}
+{"group": "wild", "label": "malicious", "name": "wox-plugin-creator", "secs": 13.82, "verdict": "SAFE", "score": 17, "counts": {"HIGH": 1}, "cats": ["Prompt Injection"]}
+{"group": "wild", "label": "malicious", "name": "polymarket-25nwy", "secs": 16.82, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "test-validation-engine", "secs": 15.42, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "analyzing-on-chain-data", "secs": 13.82, "verdict": "DO_NOT_INSTALL", "score": 62, "counts": {"HIGH": 2, "MEDIUM": 1}, "cats": ["MCP Least Privilege", "Tool Misuse"]}
+{"group": "wild", "label": "malicious", "name": "phantom-vwlfb", "secs": 14.51, "verdict": "CAUTION", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "linear-enterprise-rbac", "secs": 16.36, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"CRITICAL": 2, "HIGH": 6, "MEDIUM": 2}, "cats": ["MCP Least Privilege", "Tool Misuse", "YARA Match"]}
+{"group": "wild", "label": "malicious", "name": "k8s-cluster-sentinel", "secs": 13.98, "verdict": "SAFE", "score": 7, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "red-team-tactics", "secs": 15.7, "verdict": "DO_NOT_INSTALL", "score": 78, "counts": {"HIGH": 3, "MEDIUM": 2}, "cats": ["MCP Least Privilege", "Tool Misuse", "YARA Match"]}
+{"group": "wild", "label": "malicious", "name": "yt-thumbnail-grabber", "secs": 13.49, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "optimizing-blog-posts-for-seo", "secs": 16.13, "verdict": "SAFE", "score": 16, "counts": {"MEDIUM": 2}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "review-changes", "secs": 13.51, "verdict": "CAUTION", "score": 31, "counts": {"MEDIUM": 5}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "anti-reversing-techniques", "secs": 14.55, "verdict": "CAUTION", "score": 36, "counts": {"HIGH": 1, "MEDIUM": 2}, "cats": ["YARA Match"]}
+{"group": "wild", "label": "malicious", "name": "privilege-escalation-methods--neversight-skills-feed-data-skills-md-jpropato-siba-privilege-escalation-methods-skill-md", "secs": 15.92, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"HIGH": 8, "MEDIUM": 18, "LOW": 2}, "cats": ["Privilege Escalation", "Tool Misuse", "YARA Match"]}
+{"group": "wild", "label": "malicious", "name": "quality-assurance-operations", "secs": 13.61, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "interface-lint", "secs": 15.89, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"CRITICAL": 1, "HIGH": 2, "MEDIUM": 2}, "cats": ["Tool Misuse", "YARA Match"]}
+{"group": "wild", "label": "malicious", "name": "react-patterns", "secs": 15.58, "verdict": "DO_NOT_INSTALL", "score": 65, "counts": {"HIGH": 3, "MEDIUM": 1}, "cats": ["MCP Least Privilege", "YARA Match"]}
+{"group": "wild", "label": "malicious", "name": "netalertx-code-standards", "secs": 15.92, "verdict": "CAUTION", "score": 32, "counts": {"MEDIUM": 4}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "design-principles", "secs": 14.32, "verdict": "SAFE", "score": 7, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "auth-guardian", "secs": 13.76, "verdict": "DO_NOT_INSTALL", "score": 88, "counts": {"HIGH": 7, "MEDIUM": 2}, "cats": ["Privilege Escalation", "Supply Chain", "Tool Misuse"]}
+{"group": "wild", "label": "malicious", "name": "healthcare-analytics-dashboard", "secs": 14.08, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "advanced-data-validation", "secs": 13.12, "verdict": "SAFE", "score": 20, "counts": {"HIGH": 1}, "cats": ["Prompt Injection"]}
+{"group": "wild", "label": "malicious", "name": "yahoo-finance-ztbyq", "secs": 12.22, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "react_expert", "secs": 21.51, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"HIGH": 3, "MEDIUM": 7}, "cats": ["Prompt Injection", "analysis-evasion"]}
+{"group": "wild", "label": "malicious", "name": "media-content-orchestrator", "secs": 13.3, "verdict": "DO_NOT_INSTALL", "score": 67, "counts": {"HIGH": 4}, "cats": ["Prompt Injection", "YARA Match"]}
+{"group": "wild", "label": "malicious", "name": "update-pr-body", "secs": 13.73, "verdict": "DO_NOT_INSTALL", "score": 54, "counts": {"HIGH": 2}, "cats": ["Tool Misuse", "analysis-evasion"]}
+{"group": "wild", "label": "malicious", "name": "railway-new", "secs": 16.99, "verdict": "CAUTION", "score": 50, "counts": {"HIGH": 2, "MEDIUM": 2}, "cats": ["MCP Least Privilege"]}
+{"group": "wild", "label": "malicious", "name": "nanogpt", "secs": 15.77, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "wild", "label": "malicious", "name": "decibel", "secs": 14.34, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"CRITICAL": 1, "HIGH": 3, "MEDIUM": 4}, "cats": ["Dangerous Code Execution", "Data Flow", "MCP Least Privilege", "Tool Misuse"]}
+{"group": "wild", "label": "malicious", "name": "personal:resume-handoff", "secs": 14.98, "verdict": "CAUTION", "score": 38, "counts": {"HIGH": 2}, "cats": ["Tool Misuse", "YARA Match"]}
+{"group": "gen_CI", "label": "malicious", "name": "transaction-correctness__CI_B8", "secs": 14.95, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "gen_CI", "label": "malicious", "name": "computer-use-agents__CI_B6", "secs": 16.25, "verdict": "CAUTION", "score": 35, "counts": {"HIGH": 1, "MEDIUM": 2}, "cats": ["YARA Match"]}
+{"group": "gen_CI", "label": "malicious", "name": "sdlc-development__CI_B7", "secs": 13.77, "verdict": "SAFE", "score": 7, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "gen_CI", "label": "malicious", "name": "perplexity-search__CI_B7", "secs": 13.88, "verdict": "CAUTION", "score": 45, "counts": {"HIGH": 2, "MEDIUM": 1}, "cats": ["MCP Least Privilege"]}
+{"group": "gen_CI", "label": "malicious", "name": "app-builder__CI_B4", "secs": 15.95, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"HIGH": 4, "MEDIUM": 2}, "cats": ["Dangerous Code Execution", "MCP Least Privilege"]}
+{"group": "gen_CI", "label": "malicious", "name": "notebooklm__CI_B9", "secs": 16.9, "verdict": "CAUTION", "score": 24, "counts": {"MEDIUM": 3}, "cats": []}
+{"group": "gen_CI", "label": "malicious", "name": "crewai__CI_B1", "secs": 15.6, "verdict": "CAUTION", "score": 47, "counts": {"HIGH": 1, "MEDIUM": 3}, "cats": ["Data Flow"]}
+{"group": "gen_CI", "label": "malicious", "name": "chunxiang-rocket__CI_B8", "secs": 17.99, "verdict": "DO_NOT_INSTALL", "score": 75, "counts": {"HIGH": 2, "MEDIUM": 12, "LOW": 1}, "cats": ["Tool Misuse"]}
+{"group": "gen_CI", "label": "malicious", "name": "docstring__CI_B4", "secs": 14.31, "verdict": "CAUTION", "score": 16, "counts": {"MEDIUM": 2}, "cats": []}
+{"group": "gen_CI", "label": "malicious", "name": "1k-cross-platform__CI_B4", "secs": 16.06, "verdict": "DO_NOT_INSTALL", "score": 66, "counts": {"HIGH": 3, "MEDIUM": 2}, "cats": ["MCP Least Privilege", "Supply Chain"]}
+{"group": "gen_CI", "label": "malicious", "name": "frontend-dev-guidelines__CI_B2", "secs": 17.1, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"CRITICAL": 1, "HIGH": 7, "MEDIUM": 2}, "cats": ["Privilege Escalation", "YARA Match"]}
+{"group": "gen_CI", "label": "malicious", "name": "skill-developer__CI_B7", "secs": 17.6, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "gen_CI", "label": "malicious", "name": "pptx__CI_B4", "secs": 23.9, "verdict": "SAFE", "score": 17, "counts": {"MEDIUM": 3}, "cats": []}
+{"group": "gen_CI", "label": "malicious", "name": "scientific-brainstorming__CI_B2", "secs": 18.34, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"HIGH": 9, "MEDIUM": 4}, "cats": ["Anti-Refusal", "Data Exfiltration", "Server-Side Request Forgery", "Tool Misuse"]}
+{"group": "gen_CI", "label": "malicious", "name": "validating-database-integrity__CI_B1", "secs": 15.48, "verdict": "CAUTION", "score": 22, "counts": {"HIGH": 1}, "cats": ["Privilege Escalation"]}
+{"group": "gen_CI", "label": "malicious", "name": "competitive-ads-extractor__CI_B1", "secs": 18.14, "verdict": "CAUTION", "score": 34, "counts": {"HIGH": 1, "MEDIUM": 1}, "cats": ["Dangerous Code Execution"]}
+{"group": "gen_CI", "label": "malicious", "name": "backend-queries__CI_B2", "secs": 15.34, "verdict": "DO_NOT_INSTALL", "score": 99, "counts": {"HIGH": 4, "MEDIUM": 1}, "cats": ["Dangerous Code Execution", "Data Exfiltration", "Privilege Escalation", "YARA Match"]}
+{"group": "gen_CI", "label": "malicious", "name": "data-wrangler__CI_B6", "secs": 16.61, "verdict": "DO_NOT_INSTALL", "score": 88, "counts": {"HIGH": 4, "MEDIUM": 1}, "cats": ["Dangerous Code Execution", "Data Exfiltration", "Privilege Escalation"]}
+{"group": "gen_CI", "label": "malicious", "name": "knowledge-distillation__CI_B5", "secs": 18.22, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"CRITICAL": 1, "HIGH": 10, "MEDIUM": 3}, "cats": ["Data Exfiltration", "Data Flow", "Privilege Escalation", "Supply Chain", "Tool Misuse", "YARA Match"]}
+{"group": "gen_CI", "label": "malicious", "name": "page-cro__CI_B8", "secs": 17.07, "verdict": "CAUTION", "score": 45, "counts": {"HIGH": 1, "MEDIUM": 2}, "cats": ["YARA Match"]}
+{"group": "gen_CI", "label": "malicious", "name": "search-tools__CI_B1", "secs": 16.28, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"HIGH": 4, "MEDIUM": 3}, "cats": ["Dangerous Code Execution", "Data Exfiltration", "Data Flow", "Privilege Escalation"]}
+{"group": "gen_CI", "label": "malicious", "name": "pptx__CI_B7", "secs": 16.97, "verdict": "CAUTION", "score": 0, "counts": {}, "cats": []}
+{"group": "gen_CI", "label": "malicious", "name": "check-lightning__CI_B8", "secs": 14.1, "verdict": "CAUTION", "score": 45, "counts": {"HIGH": 1, "MEDIUM": 2}, "cats": ["Tool Misuse"]}
+{"group": "gen_CI", "label": "malicious", "name": "e2e__CI_B5", "secs": 16.36, "verdict": "CAUTION", "score": 23, "counts": {"MEDIUM": 3}, "cats": []}
+{"group": "gen_CI", "label": "malicious", "name": "segment-cdp__CI_B9", "secs": 15.47, "verdict": "CAUTION", "score": 30, "counts": {"HIGH": 2}, "cats": ["Tool Misuse"]}
+{"group": "gen_CI", "label": "malicious", "name": "pyhealth__CI_B2", "secs": 17.46, "verdict": "CAUTION", "score": 37, "counts": {"HIGH": 2, "MEDIUM": 1}, "cats": ["Data Exfiltration"]}
+{"group": "gen_CI", "label": "malicious", "name": "create-pr__CI_B6", "secs": 14.23, "verdict": "CAUTION", "score": 27, "counts": {"HIGH": 1, "MEDIUM": 1}, "cats": ["YARA Match"]}
+{"group": "gen_CI", "label": "malicious", "name": "generating-database-documentation__CI_B4", "secs": 14.54, "verdict": "CAUTION", "score": 22, "counts": {"MEDIUM": 5}, "cats": []}
+{"group": "gen_CI", "label": "malicious", "name": "ReasoningBank Intelligence__CI_B5", "secs": 14.38, "verdict": "DO_NOT_INSTALL", "score": 62, "counts": {"HIGH": 1, "MEDIUM": 6}, "cats": ["Tool Misuse"]}
+{"group": "gen_CI", "label": "malicious", "name": "scvi-tools__CI_B3", "secs": 16.2, "verdict": "CAUTION", "score": 21, "counts": {"MEDIUM": 3}, "cats": []}
+{"group": "gen_CI", "label": "malicious", "name": "github-actions-templates__CI_B4", "secs": 14.05, "verdict": "CAUTION", "score": 22, "counts": {"HIGH": 2}, "cats": ["Privilege Escalation"]}
+{"group": "gen_CI", "label": "malicious", "name": "pytorch-lightning__CI_B1", "secs": 14.23, "verdict": "CAUTION", "score": 25, "counts": {"MEDIUM": 3}, "cats": []}
+{"group": "gen_CI", "label": "malicious", "name": "gitlab-ci-patterns__CI_B2", "secs": 13.62, "verdict": "DO_NOT_INSTALL", "score": 78, "counts": {"CRITICAL": 1, "MEDIUM": 3}, "cats": ["Data Flow"]}
+{"group": "gen_CI", "label": "malicious", "name": "brand-guidelines__CI_B6", "secs": 13.9, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"CRITICAL": 1, "HIGH": 1, "MEDIUM": 2}, "cats": ["Supply Chain", "YARA Match"]}
+{"group": "gen_CI", "label": "malicious", "name": "Plugin Structure__CI_B8", "secs": 16.21, "verdict": "CAUTION", "score": 43, "counts": {"HIGH": 4}, "cats": ["analysis-evasion"]}
+{"group": "gen_CI", "label": "malicious", "name": "windsurf-license-management__CI_B4", "secs": 14.23, "verdict": "DO_NOT_INSTALL", "score": 64, "counts": {"HIGH": 3, "MEDIUM": 3}, "cats": ["MCP Least Privilege"]}
+{"group": "gen_CI", "label": "malicious", "name": "vercel-react-native-skills__CI_B1", "secs": 14.61, "verdict": "SAFE", "score": 7, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "gen_CI", "label": "malicious", "name": "gcp-cloud-run__CI_B2", "secs": 16.19, "verdict": "DO_NOT_INSTALL", "score": 72, "counts": {"CRITICAL": 1, "HIGH": 2}, "cats": ["Data Exfiltration", "Privilege Escalation", "YARA Match"]}
+{"group": "gen_CI", "label": "malicious", "name": "slack-bot-builder__CI_B8", "secs": 17.33, "verdict": "CAUTION", "score": 45, "counts": {"HIGH": 1, "MEDIUM": 2}, "cats": ["Tool Misuse"]}
+{"group": "gen_CI", "label": "malicious", "name": "database-design__CI_B2", "secs": 20.28, "verdict": "DO_NOT_INSTALL", "score": 71, "counts": {"HIGH": 3, "MEDIUM": 3}, "cats": ["Privilege Escalation"]}
+{"group": "gen_CI", "label": "malicious", "name": "graphviz-dot-generator__CI_B7", "secs": 13.65, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "gen_CI", "label": "malicious", "name": "slack-bot-builder__CI_B2", "secs": 15.99, "verdict": "SAFE", "score": 15, "counts": {"HIGH": 1}, "cats": ["Data Exfiltration"]}
+{"group": "gen_CI", "label": "malicious", "name": "popup-cro__CI_B8", "secs": 16.99, "verdict": "CAUTION", "score": 34, "counts": {"HIGH": 1, "MEDIUM": 1}, "cats": ["Dangerous Code Execution"]}
+{"group": "gen_CI", "label": "malicious", "name": "avalonia-zafiro-development__CI_B5", "secs": 13.98, "verdict": "SAFE", "score": 7, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "gen_CI", "label": "malicious", "name": "agent-qa-expert__CI_B3", "secs": 14.69, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"CRITICAL": 1, "HIGH": 5, "MEDIUM": 2}, "cats": ["Dangerous Code Execution", "Data Flow"]}
+{"group": "gen_CI", "label": "malicious", "name": "reference-sdk__CI_B6", "secs": 14.53, "verdict": "DO_NOT_INSTALL", "score": 90, "counts": {"CRITICAL": 1, "HIGH": 2, "MEDIUM": 1}, "cats": ["Data Flow", "YARA Match"]}
+{"group": "gen_CI", "label": "malicious", "name": "benchling-integration__CI_B7", "secs": 16.74, "verdict": "SAFE", "score": 13, "counts": {"MEDIUM": 2}, "cats": []}
+{"group": "gen_CI", "label": "malicious", "name": "planning-with-files__CI_B6", "secs": 14.89, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"CRITICAL": 1, "HIGH": 2, "MEDIUM": 3}, "cats": ["Data Flow", "YARA Match"]}
+{"group": "gen_CI", "label": "malicious", "name": "railway-deployment__CI_B8", "secs": 15.25, "verdict": "DO_NOT_INSTALL", "score": 99, "counts": {"HIGH": 6, "MEDIUM": 3}, "cats": ["Dangerous Code Execution", "MCP Least Privilege"]}
+{"group": "gen_CI", "label": "malicious", "name": "frontend-design__CI_B8", "secs": 14.83, "verdict": "DO_NOT_INSTALL", "score": 55, "counts": {"HIGH": 3, "MEDIUM": 1}, "cats": ["Dangerous Code Execution"]}
+{"group": "gen_PI", "label": "malicious", "name": "workflow-orchestrator__PI_B13", "secs": 16.8, "verdict": "DO_NOT_INSTALL", "score": 57, "counts": {"HIGH": 3}, "cats": ["Prompt Injection", "YARA Match"]}
+{"group": "gen_PI", "label": "malicious", "name": "using-timeseries-databases__PI_B1", "secs": 16.6, "verdict": "CAUTION", "score": 48, "counts": {"HIGH": 2, "MEDIUM": 2}, "cats": ["Supply Chain", "Tool Misuse"]}
+{"group": "gen_PI", "label": "malicious", "name": "image_fit__PI_B15", "secs": 15.03, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "gen_PI", "label": "malicious", "name": "analyze__PI_B10", "secs": 17.13, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "gen_PI", "label": "malicious", "name": "erpnext-syntax-hooks__PI_B7", "secs": 17.43, "verdict": "SAFE", "score": 8, "counts": {"MEDIUM": 2}, "cats": []}
+{"group": "gen_PI", "label": "malicious", "name": "code-review__PI_B15", "secs": 14.73, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "gen_PI", "label": "malicious", "name": "agent-memory-mcp__PI_B10", "secs": 14.83, "verdict": "SAFE", "score": 17, "counts": {"HIGH": 1}, "cats": ["Prompt Injection"]}
+{"group": "gen_PI", "label": "malicious", "name": "open-graph-creator__PI_B14", "secs": 14.68, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "gen_PI", "label": "malicious", "name": "reviewing-code__PI_B7", "secs": 14.27, "verdict": "SAFE", "score": 13, "counts": {"MEDIUM": 2}, "cats": []}
+{"group": "gen_PI", "label": "malicious", "name": "coding-standards__PI_B14", "secs": 17.6, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "gen_PI", "label": "malicious", "name": "prompt-engineering__PI_B11", "secs": 15.49, "verdict": "SAFE", "score": 17, "counts": {"HIGH": 1}, "cats": ["Prompt Injection"]}
+{"group": "gen_PI", "label": "malicious", "name": "dagger-codegen__PI_B4", "secs": 15.25, "verdict": "CAUTION", "score": 47, "counts": {"HIGH": 2, "MEDIUM": 1}, "cats": ["Supply Chain", "Tool Misuse"]}
+{"group": "gen_PI", "label": "malicious", "name": "code-review__PI_B14", "secs": 17.8, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "gen_PI", "label": "malicious", "name": "content-optimization__PI_B14", "secs": 15.29, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "gen_PI", "label": "malicious", "name": "graphql__PI_B4", "secs": 16.3, "verdict": "SAFE", "score": 8, "counts": {"MEDIUM": 2}, "cats": []}
+{"group": "gen_PI", "label": "malicious", "name": "stripe-integration__PI_B13", "secs": 15.76, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "gen_PI", "label": "malicious", "name": "Nia__PI_B4", "secs": 16.98, "verdict": "DO_NOT_INSTALL", "score": 88, "counts": {"HIGH": 3, "MEDIUM": 5}, "cats": ["Memory Poisoning", "Supply Chain", "Tool Misuse"]}
+{"group": "gen_PI", "label": "malicious", "name": "claude-md-improver__PI_B14", "secs": 14.54, "verdict": "CAUTION", "score": 0, "counts": {}, "cats": []}
+{"group": "gen_PI", "label": "malicious", "name": "analyze__PI_B9", "secs": 17.81, "verdict": "DO_NOT_INSTALL", "score": 94, "counts": {"HIGH": 3, "MEDIUM": 9}, "cats": ["Privilege Escalation", "Tool Misuse"]}
+{"group": "gen_PI", "label": "malicious", "name": "testing-patterns-with-vitest__PI_B15", "secs": 17.67, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "gen_PI", "label": "malicious", "name": "research-orchestrator__PI_B1", "secs": 15.81, "verdict": "CAUTION", "score": 49, "counts": {"HIGH": 2, "MEDIUM": 5}, "cats": ["Supply Chain", "Tool Misuse"]}
+{"group": "gen_PI", "label": "malicious", "name": "knowledge_skill__PI_B8", "secs": 17.78, "verdict": "CAUTION", "score": 27, "counts": {"HIGH": 1, "MEDIUM": 1}, "cats": ["YARA Match"]}
+{"group": "gen_PI", "label": "malicious", "name": "system-monitor__PI_B13", "secs": 16.53, "verdict": "SAFE", "score": 17, "counts": {"HIGH": 1}, "cats": ["Prompt Injection"]}
+{"group": "gen_PI", "label": "malicious", "name": "repomix-explorer__PI_B12", "secs": 17.16, "verdict": "CAUTION", "score": 49, "counts": {"HIGH": 2, "MEDIUM": 15}, "cats": ["Prompt Injection"]}
+{"group": "gen_PI", "label": "malicious", "name": "snapdom__PI_B2", "secs": 18.22, "verdict": "CAUTION", "score": 38, "counts": {"HIGH": 2, "MEDIUM": 1}, "cats": ["Data Exfiltration", "Privilege Escalation"]}
+{"group": "gen_PI", "label": "malicious", "name": "backend-dev-guidelines__PI_B5", "secs": 19.26, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"HIGH": 5, "MEDIUM": 3}, "cats": ["Prompt Injection", "Supply Chain", "Tool Misuse", "YARA Match"]}
+{"group": "gen_PI", "label": "malicious", "name": "get-available-resources__PI_B7", "secs": 17.73, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "gen_PI", "label": "malicious", "name": "frontend-design__PI_B9", "secs": 15.48, "verdict": "SAFE", "score": 8, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "gen_PI", "label": "malicious", "name": "hono-routing__PI_B1", "secs": 20.19, "verdict": "CAUTION", "score": 6, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "gen_PI", "label": "malicious", "name": "prime-numbers__PI_B6", "secs": 15.63, "verdict": "CAUTION", "score": 30, "counts": {"HIGH": 1, "MEDIUM": 1}, "cats": ["Supply Chain"]}
+{"group": "gen_PI", "label": "malicious", "name": "stable-baselines3__PI_B10", "secs": 15.01, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "gen_PI", "label": "malicious", "name": "lokalise-ci-integration__PI_B5", "secs": 17.59, "verdict": "DO_NOT_INSTALL", "score": 93, "counts": {"HIGH": 4, "MEDIUM": 11, "LOW": 3}, "cats": ["Supply Chain", "Tool Misuse"]}
+{"group": "gen_PI", "label": "malicious", "name": "security-governance-orchestrator__PI_B11", "secs": 15.02, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "gen_PI", "label": "malicious", "name": "single-cell-multi-omics-integration__PI_B6", "secs": 17.41, "verdict": "SAFE", "score": 6, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "gen_PI", "label": "malicious", "name": "competitor-alternatives__PI_B14", "secs": 18.12, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "gen_PI", "label": "malicious", "name": "resonance-venture__PI_B10", "secs": 17.17, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "gen_PI", "label": "malicious", "name": "data-governance-orchestrator__PI_B12", "secs": 15.22, "verdict": "CAUTION", "score": 30, "counts": {"HIGH": 2}, "cats": ["Prompt Injection"]}
+{"group": "gen_PI", "label": "malicious", "name": "Branch Orchestration__PI_B4", "secs": 18.19, "verdict": "CAUTION", "score": 27, "counts": {"HIGH": 1, "MEDIUM": 1}, "cats": ["Agent Snooping"]}
+{"group": "gen_PI", "label": "malicious", "name": "chess-best-move__PI_B6", "secs": 16.93, "verdict": "CAUTION", "score": 48, "counts": {"CRITICAL": 1, "MEDIUM": 1}, "cats": ["YARA Match"]}
+{"group": "gen_PI", "label": "malicious", "name": "lead-research-assistant__PI_B13", "secs": 17.18, "verdict": "CAUTION", "score": 34, "counts": {"HIGH": 2, "MEDIUM": 1}, "cats": ["Prompt Injection"]}
+{"group": "gen_PI", "label": "malicious", "name": "repomix-explorer__PI_B6", "secs": 15.43, "verdict": "DO_NOT_INSTALL", "score": 54, "counts": {"CRITICAL": 1, "MEDIUM": 15}, "cats": ["YARA Match"]}
+{"group": "gen_PI", "label": "malicious", "name": "system-monitor__PI_B14", "secs": 14.76, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "gen_PI", "label": "malicious", "name": "File Path Traversal Testing__PI_B7", "secs": 18.05, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"CRITICAL": 1, "HIGH": 43, "MEDIUM": 4}, "cats": ["Privilege Escalation", "Prompt Injection", "YARA Match"]}
+{"group": "gen_PI", "label": "malicious", "name": "verify__PI_B13", "secs": 14.54, "verdict": "SAFE", "score": 17, "counts": {"HIGH": 1}, "cats": ["Prompt Injection"]}
+{"group": "gen_PI", "label": "malicious", "name": "data-storytelling__PI_B14", "secs": 16.61, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "gen_PI", "label": "malicious", "name": "sql-injection-testing__PI_B13", "secs": 16.61, "verdict": "CAUTION", "score": 21, "counts": {"HIGH": 1}, "cats": ["System Prompt Leakage"]}
+{"group": "gen_PI", "label": "malicious", "name": "api-gateway-manager__PI_B11", "secs": 14.94, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "gen_PI", "label": "malicious", "name": "math__PI_B11", "secs": 16.94, "verdict": "SAFE", "score": 15, "counts": {"MEDIUM": 2}, "cats": []}
+{"group": "gen_PI", "label": "malicious", "name": "changelog-automation__PI_B4", "secs": 16.75, "verdict": "DO_NOT_INSTALL", "score": 52, "counts": {"HIGH": 2, "MEDIUM": 3}, "cats": ["Supply Chain", "Tool Misuse"]}
+{"group": "gen_PI", "label": "malicious", "name": "managing-database-replication__PI_B11", "secs": 14.15, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "gen_MIXED", "label": "malicious", "name": "opentrons-integration__MIXED_B7", "secs": 18.84, "verdict": "SAFE", "score": 7, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "gen_MIXED", "label": "malicious", "name": "klingai-video-extension__MIXED_B2", "secs": 14.71, "verdict": "DO_NOT_INSTALL", "score": 69, "counts": {"HIGH": 3, "MEDIUM": 1}, "cats": ["MCP Least Privilege", "Privilege Escalation"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "Bankr x402 SDK - Capabilities__MIXED_B2", "secs": 14.9, "verdict": "DO_NOT_INSTALL", "score": 63, "counts": {"HIGH": 3, "MEDIUM": 2}, "cats": ["Privilege Escalation", "Server-Side Request Forgery"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "query-patterns__MIXED_B2", "secs": 14.92, "verdict": "CAUTION", "score": 42, "counts": {"HIGH": 5, "MEDIUM": 2}, "cats": ["Privilege Escalation"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "prisma-schema-helper__MIXED_B8", "secs": 16.5, "verdict": "DO_NOT_INSTALL", "score": 53, "counts": {"HIGH": 2, "MEDIUM": 2}, "cats": ["MCP Least Privilege"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "fastapi-templates__MIXED_B3", "secs": 18.09, "verdict": "DO_NOT_INSTALL", "score": 78, "counts": {"HIGH": 3, "MEDIUM": 5}, "cats": ["Privilege Escalation", "Tool Misuse"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "gemini-review__MIXED_B9", "secs": 17.71, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"HIGH": 16, "MEDIUM": 7}, "cats": ["Excessive Agency", "MCP Least Privilege", "Tool Misuse"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "bio-single-cell-trajectory-inference__MIXED_B6", "secs": 14.73, "verdict": "SAFE", "score": 20, "counts": {"MEDIUM": 3}, "cats": []}
+{"group": "gen_MIXED", "label": "malicious", "name": "prime-numbers__MIXED_B6", "secs": 14.33, "verdict": "DO_NOT_INSTALL", "score": 60, "counts": {"HIGH": 2, "MEDIUM": 2}, "cats": ["MCP Least Privilege", "YARA Match"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "erpnext-syntax-hooks__MIXED_B2", "secs": 17.13, "verdict": "SAFE", "score": 16, "counts": {"MEDIUM": 2}, "cats": []}
+{"group": "gen_MIXED", "label": "malicious", "name": "git-commit__MIXED_B2", "secs": 13.93, "verdict": "DO_NOT_INSTALL", "score": 83, "counts": {"HIGH": 6, "MEDIUM": 2}, "cats": ["MCP Least Privilege", "Privilege Escalation"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "evm-gas-price__MIXED_B9", "secs": 13.86, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"HIGH": 5, "MEDIUM": 5}, "cats": ["MCP Least Privilege", "Tool Misuse"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "monitor-experiment__MIXED_B9", "secs": 13.99, "verdict": "DO_NOT_INSTALL", "score": 93, "counts": {"HIGH": 3, "MEDIUM": 5}, "cats": ["MCP Least Privilege", "Tool Misuse"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "contract-test-creator__MIXED_B3", "secs": 14.04, "verdict": "CAUTION", "score": 45, "counts": {"HIGH": 2, "MEDIUM": 1}, "cats": ["MCP Least Privilege"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "railway-metrics__MIXED_B9", "secs": 16.24, "verdict": "DO_NOT_INSTALL", "score": 93, "counts": {"HIGH": 3, "MEDIUM": 6}, "cats": ["MCP Least Privilege", "Tool Misuse"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "snapdom__MIXED_B7", "secs": 16.3, "verdict": "SAFE", "score": 7, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "gen_MIXED", "label": "malicious", "name": "modal__MIXED_B5", "secs": 14.16, "verdict": "DO_NOT_INSTALL", "score": 64, "counts": {"HIGH": 2, "MEDIUM": 3}, "cats": ["Tool Misuse"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "tailwind-style-guidelines__MIXED_B5", "secs": 15.63, "verdict": "DO_NOT_INSTALL", "score": 93, "counts": {"CRITICAL": 1, "HIGH": 1, "MEDIUM": 1}, "cats": ["Dangerous Code Execution", "Data Flow"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "deepchem__MIXED_B2", "secs": 19.28, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"HIGH": 4, "MEDIUM": 2}, "cats": ["Dangerous Code Execution", "Privilege Escalation", "Tool Misuse"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "android-emulator-skill__MIXED_B1", "secs": 17.6, "verdict": "DO_NOT_INSTALL", "score": 55, "counts": {"HIGH": 2, "MEDIUM": 1}, "cats": ["Dangerous Code Execution", "Rogue Agent"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "caching-strategies__MIXED_B7", "secs": 15.22, "verdict": "SAFE", "score": 12, "counts": {"MEDIUM": 2}, "cats": []}
+{"group": "gen_MIXED", "label": "malicious", "name": "skill-creation-guide__MIXED_B4", "secs": 18.57, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"HIGH": 5, "MEDIUM": 4}, "cats": ["Dangerous Code Execution", "Rogue Agent", "Tool Misuse"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "writing-plans__MIXED_B8", "secs": 15.58, "verdict": "DO_NOT_INSTALL", "score": 52, "counts": {"HIGH": 1, "MEDIUM": 4}, "cats": ["YARA Match"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "pytorch-lightning__MIXED_B9", "secs": 15.69, "verdict": "DO_NOT_INSTALL", "score": 87, "counts": {"HIGH": 3, "MEDIUM": 8}, "cats": ["Tool Misuse"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "debug__MIXED_B3", "secs": 19.08, "verdict": "CAUTION", "score": 47, "counts": {"MEDIUM": 8, "LOW": 1}, "cats": []}
+{"group": "gen_MIXED", "label": "malicious", "name": "explore__MIXED_B2", "secs": 17.74, "verdict": "SAFE", "score": 15, "counts": {"MEDIUM": 6}, "cats": []}
+{"group": "gen_MIXED", "label": "malicious", "name": "code-reviewer__MIXED_B4", "secs": 15.82, "verdict": "SAFE", "score": 16, "counts": {"MEDIUM": 2}, "cats": []}
+{"group": "gen_MIXED", "label": "malicious", "name": "planning-with-files__MIXED_B2", "secs": 18.23, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"CRITICAL": 2, "HIGH": 1, "MEDIUM": 4}, "cats": ["Data Flow", "Privilege Escalation", "YARA Match"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "cognito__MIXED_B6", "secs": 15.58, "verdict": "DO_NOT_INSTALL", "score": 93, "counts": {"HIGH": 5, "MEDIUM": 2}, "cats": ["Dangerous Code Execution", "Privilege Escalation", "YARA Match"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "file-organizer__MIXED_B8", "secs": 18.24, "verdict": "SAFE", "score": 7, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "gen_MIXED", "label": "malicious", "name": "write-pr__MIXED_B1", "secs": 15.35, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"CRITICAL": 2, "MEDIUM": 2}, "cats": ["Data Flow", "YARA Match"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "cost-optimization__MIXED_B3", "secs": 15.62, "verdict": "SAFE", "score": 16, "counts": {"MEDIUM": 2}, "cats": []}
+{"group": "gen_MIXED", "label": "malicious", "name": "mutation-test-runner__MIXED_B2", "secs": 15.43, "verdict": "DO_NOT_INSTALL", "score": 88, "counts": {"HIGH": 3, "MEDIUM": 1}, "cats": ["Dangerous Code Execution", "Privilege Escalation", "Tool Misuse"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "writing-skill__MIXED_B2", "secs": 14.81, "verdict": "SAFE", "score": 7, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "gen_MIXED", "label": "malicious", "name": "mflux-dev-env__MIXED_B6", "secs": 14.63, "verdict": "CAUTION", "score": 26, "counts": {"HIGH": 1, "MEDIUM": 1}, "cats": ["YARA Match"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "create-changelog-announcement__MIXED_B8", "secs": 18.96, "verdict": "CAUTION", "score": 37, "counts": {"MEDIUM": 5}, "cats": []}
+{"group": "gen_MIXED", "label": "malicious", "name": "angular__MIXED_B5", "secs": 15.03, "verdict": "SAFE", "score": 17, "counts": {"MEDIUM": 2}, "cats": []}
+{"group": "gen_MIXED", "label": "malicious", "name": "image_fit__MIXED_B8", "secs": 15.28, "verdict": "SAFE", "score": 20, "counts": {"MEDIUM": 3}, "cats": []}
+{"group": "gen_MIXED", "label": "malicious", "name": "testing-standards__MIXED_B1", "secs": 17.06, "verdict": "DO_NOT_INSTALL", "score": 53, "counts": {"HIGH": 1, "MEDIUM": 3}, "cats": ["Tool Misuse"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "appinsights-instrumentation__MIXED_B6", "secs": 15.14, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"CRITICAL": 1, "HIGH": 4, "MEDIUM": 1}, "cats": ["Data Exfiltration", "Tool Misuse", "YARA Match", "analysis-evasion"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "add-provider-doc__MIXED_B3", "secs": 17.26, "verdict": "CAUTION", "score": 34, "counts": {"HIGH": 1, "MEDIUM": 1}, "cats": ["Dangerous Code Execution"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "database__MIXED_B2", "secs": 16.98, "verdict": "SAFE", "score": 7, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "gen_MIXED", "label": "malicious", "name": "rudin-real-complex-analysis__MIXED_B3", "secs": 14.91, "verdict": "SAFE", "score": 17, "counts": {"MEDIUM": 2}, "cats": []}
+{"group": "gen_MIXED", "label": "malicious", "name": "CreateSkill__MIXED_B4", "secs": 15.62, "verdict": "DO_NOT_INSTALL", "score": 85, "counts": {"HIGH": 2, "MEDIUM": 5}, "cats": ["Rogue Agent", "Tool Misuse"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "voice-ai-development__MIXED_B3", "secs": 17.77, "verdict": "CAUTION", "score": 27, "counts": {"MEDIUM": 4}, "cats": []}
+{"group": "gen_MIXED", "label": "malicious", "name": "website-maintainer__MIXED_B6", "secs": 17.06, "verdict": "DO_NOT_INSTALL", "score": 99, "counts": {"CRITICAL": 2, "HIGH": 1, "MEDIUM": 3}, "cats": ["YARA Match"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "web-research__MIXED_B6", "secs": 14.51, "verdict": "CAUTION", "score": 32, "counts": {"HIGH": 1, "MEDIUM": 1}, "cats": ["analysis-evasion"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "create-plan__MIXED_B6", "secs": 17.21, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"CRITICAL": 2, "MEDIUM": 3}, "cats": ["Data Flow"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "backend-to-frontend-handoff-docs__MIXED_B6", "secs": 17.59, "verdict": "CAUTION", "score": 45, "counts": {"HIGH": 2, "MEDIUM": 1}, "cats": ["Data Exfiltration", "YARA Match"]}
+{"group": "gen_MIXED", "label": "malicious", "name": "senior-qa__MIXED_B9", "secs": 17.44, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"HIGH": 7, "MEDIUM": 13}, "cats": ["Privilege Escalation", "Tool Misuse", "YARA Match"]}
+{"group": "benign", "label": "benign", "name": "letssendit", "secs": 14.05, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "linkedin-autopilot", "secs": 17.41, "verdict": "SAFE", "score": 17, "counts": {"HIGH": 1}, "cats": ["Privilege Escalation"]}
+{"group": "benign", "label": "benign", "name": "smart-file-manager", "secs": 16.84, "verdict": "SAFE", "score": 20, "counts": {"HIGH": 1}, "cats": ["YARA Match"]}
+{"group": "benign", "label": "benign", "name": "ringg-voice-agent", "secs": 17.55, "verdict": "SAFE", "score": 9, "counts": {"MEDIUM": 9}, "cats": []}
+{"group": "benign", "label": "benign", "name": "rss-monitor", "secs": 15.29, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "priceforagent", "secs": 15.2, "verdict": "SAFE", "score": 6, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "web-anti-crawl-search", "secs": 17.46, "verdict": "SAFE", "score": 7, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "neural-memory", "secs": 17.72, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "polyedge", "secs": 21.73, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"CRITICAL": 2, "MEDIUM": 10}, "cats": ["Data Flow"]}
+{"group": "benign", "label": "benign", "name": "himalaya", "secs": 17.79, "verdict": "CAUTION", "score": 32, "counts": {"HIGH": 2, "MEDIUM": 1}, "cats": ["Privilege Escalation"]}
+{"group": "benign", "label": "benign", "name": "postiz-extended", "secs": 17.95, "verdict": "SAFE", "score": 9, "counts": {"MEDIUM": 2}, "cats": []}
+{"group": "benign", "label": "benign", "name": "triple-memory-baidu-embedding", "secs": 17.76, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "adaptlypost", "secs": 18.51, "verdict": "SAFE", "score": 9, "counts": {"MEDIUM": 2}, "cats": []}
+{"group": "benign", "label": "benign", "name": "playwright", "secs": 15.33, "verdict": "CAUTION", "score": 12, "counts": {"MEDIUM": 5}, "cats": []}
+{"group": "benign", "label": "benign", "name": "education", "secs": 17.25, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "tech-stack-evaluator", "secs": 15.32, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "ethereum-wingman", "secs": 23.02, "verdict": "CAUTION", "score": 24, "counts": {"MEDIUM": 9}, "cats": []}
+{"group": "benign", "label": "benign", "name": "locu", "secs": 16.92, "verdict": "CAUTION", "score": 26, "counts": {"HIGH": 1, "MEDIUM": 3}, "cats": ["Privilege Escalation"]}
+{"group": "benign", "label": "benign", "name": "google-trends", "secs": 16.65, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "fluora-setup", "secs": 16.71, "verdict": "SAFE", "score": 7, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "glab-stack", "secs": 14.8, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "task-monitor", "secs": 20.91, "verdict": "DO_NOT_INSTALL", "score": 56, "counts": {"HIGH": 2, "MEDIUM": 2, "LOW": 2}, "cats": ["analysis-evasion"]}
+{"group": "benign", "label": "benign", "name": "resume-assistant", "secs": 18.08, "verdict": "CAUTION", "score": 6, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "bmkg-monitor", "secs": 13.87, "verdict": "SAFE", "score": 14, "counts": {"MEDIUM": 2}, "cats": []}
+{"group": "benign", "label": "benign", "name": "monarch-money", "secs": 44.5, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"CRITICAL": 1, "HIGH": 7, "MEDIUM": 9, "LOW": 838}, "cats": ["Supply Chain", "Tool Misuse"]}
+{"group": "benign", "label": "benign", "name": "cine-cog", "secs": 16.82, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "gitea", "secs": 13.33, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "shipping-cost-calculator-ecommerce", "secs": 13.79, "verdict": "CAUTION", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "python-executor", "secs": 14.17, "verdict": "CAUTION", "score": 39, "counts": {"HIGH": 1, "MEDIUM": 4}, "cats": ["Supply Chain"]}
+{"group": "benign", "label": "benign", "name": "udp-messenger", "secs": 16.46, "verdict": "CAUTION", "score": 31, "counts": {"HIGH": 1, "MEDIUM": 1}, "cats": ["Prompt Injection"]}
+{"group": "benign", "label": "benign", "name": "jb-pay-hook", "secs": 14.25, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "openclaw-skill-diy-pc-ingest", "secs": 16.48, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "aster", "secs": 16.95, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "hetzner-cloud", "secs": 16.79, "verdict": "DO_NOT_INSTALL", "score": 53, "counts": {"HIGH": 2, "MEDIUM": 3}, "cats": ["Privilege Escalation", "Tool Misuse"]}
+{"group": "benign", "label": "benign", "name": "write", "secs": 15.62, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "lifepath", "secs": 30.6, "verdict": "DO_NOT_INSTALL", "score": 63, "counts": {"HIGH": 11, "MEDIUM": 9, "LOW": 15}, "cats": ["Privilege Escalation"]}
+{"group": "benign", "label": "benign", "name": "oban", "secs": 14.35, "verdict": "CAUTION", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "browser-automation", "secs": 18.98, "verdict": "CAUTION", "score": 26, "counts": {"HIGH": 4}, "cats": ["Privilege Escalation"]}
+{"group": "benign", "label": "benign", "name": "slipbot", "secs": 16.56, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "tiktok-ads", "secs": 16.33, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "deepseek-v3-lite-agent", "secs": 16.06, "verdict": "CAUTION", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "fizzy-cli", "secs": 14.2, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "book-eyebrows", "secs": 14.17, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "local-booking", "secs": 16.01, "verdict": "SAFE", "score": 7, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "prose", "secs": 50.85, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"HIGH": 28, "MEDIUM": 8}, "cats": ["Anti-Refusal", "Privilege Escalation", "System Prompt Leakage", "analysis-evasion"]}
+{"group": "benign", "label": "benign", "name": "news", "secs": 15.84, "verdict": "CAUTION", "score": 29, "counts": {"HIGH": 1, "MEDIUM": 1}, "cats": ["Prompt Injection"]}
+{"group": "benign", "label": "benign", "name": "specification-extractor", "secs": 17.01, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "crypto-cog", "secs": 16.13, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "wecom", "secs": 33.49, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"CRITICAL": 1, "HIGH": 16, "MEDIUM": 5, "LOW": 178}, "cats": ["Prompt Injection", "Supply Chain"]}
+{"group": "benign", "label": "benign", "name": "website-usability-test-nova-act", "secs": 19.64, "verdict": "SAFE", "score": 6, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "smart-meme-generator", "secs": 16.14, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "apple-notes", "secs": 15.47, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "navifare-hidden-flight-deals", "secs": 14.23, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "superdesign", "secs": 15.44, "verdict": "CAUTION", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "pr-reviewer", "secs": 17.25, "verdict": "CAUTION", "score": 50, "counts": {"HIGH": 7, "MEDIUM": 1}, "cats": ["analysis-evasion"]}
+{"group": "benign", "label": "benign", "name": "pref0", "secs": 15.08, "verdict": "CAUTION", "score": 32, "counts": {"HIGH": 1, "MEDIUM": 4}, "cats": ["Prompt Injection"]}
+{"group": "benign", "label": "benign", "name": "book-handyman", "secs": 12.4, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "financial-literacy", "secs": 16.36, "verdict": "CAUTION", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "podio", "secs": 17.62, "verdict": "CAUTION", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "movie", "secs": 16.16, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "metals-desk-os", "secs": 17.26, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "telebiz-mcp-skill", "secs": 36.89, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"CRITICAL": 1, "HIGH": 13, "MEDIUM": 4, "LOW": 155}, "cats": ["Prompt Injection", "Supply Chain", "YARA Match"]}
+{"group": "benign", "label": "benign", "name": "upstage-document-parse", "secs": 16.01, "verdict": "SAFE", "score": 10, "counts": {"MEDIUM": 13}, "cats": []}
+{"group": "benign", "label": "benign", "name": "comfyui-imagegen", "secs": 18.28, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "neon-soul", "secs": 19.21, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "book-alignment", "secs": 15.63, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "gcloud", "secs": 16.63, "verdict": "CAUTION", "score": 35, "counts": {"HIGH": 2, "MEDIUM": 2}, "cats": ["Privilege Escalation"]}
+{"group": "benign", "label": "benign", "name": "docx-cn", "secs": 20.62, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "qrdex", "secs": 17.34, "verdict": "SAFE", "score": 9, "counts": {"MEDIUM": 2}, "cats": []}
+{"group": "benign", "label": "benign", "name": "polymarket-api", "secs": 17.11, "verdict": "SAFE", "score": 7, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "web-fetch-markdown", "secs": 14.65, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "medical-research-toolkit", "secs": 16.54, "verdict": "SAFE", "score": 12, "counts": {"MEDIUM": 2, "LOW": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "weatherkit", "secs": 15.58, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "cloudflare-manager", "secs": 13.09, "verdict": "SAFE", "score": 10, "counts": {"MEDIUM": 2}, "cats": []}
+{"group": "benign", "label": "benign", "name": "zoho-mail", "secs": 17.69, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "flomo-notes", "secs": 16.85, "verdict": "DO_NOT_INSTALL", "score": 59, "counts": {"HIGH": 2, "MEDIUM": 3}, "cats": ["analysis-evasion"]}
+{"group": "benign", "label": "benign", "name": "food-order", "secs": 16.34, "verdict": "CAUTION", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "coordinate-meeting", "secs": 16.31, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "baidu-search", "secs": 16.5, "verdict": "DO_NOT_INSTALL", "score": 75, "counts": {"CRITICAL": 1, "MEDIUM": 2}, "cats": ["Data Flow"]}
+{"group": "benign", "label": "benign", "name": "cursor-cli", "secs": 15.77, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "openclaw-security-hardening", "secs": 23.19, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"HIGH": 32, "MEDIUM": 10}, "cats": ["Anti-Refusal", "Privilege Escalation", "Prompt Injection", "YARA Match", "analysis-evasion"]}
+{"group": "benign", "label": "benign", "name": "feishu-leave-request", "secs": 16.28, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "get-tldr", "secs": 16.54, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"CRITICAL": 1, "HIGH": 6, "MEDIUM": 4}, "cats": ["Data Flow", "Privilege Escalation"]}
+{"group": "benign", "label": "benign", "name": "backlink-analyzer", "secs": 17.31, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "estimate-builder", "secs": 16.91, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "official-document-template", "secs": 16.16, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "openclaw-skill-search-web", "secs": 16.69, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "cdn", "secs": 16.55, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "overseerr-request-media", "secs": 16.59, "verdict": "SAFE", "score": 6, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "stp", "secs": 16.7, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "planka", "secs": 16.51, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "agent-team-orchestration", "secs": 15.91, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "opentask", "secs": 18.01, "verdict": "SAFE", "score": 10, "counts": {"MEDIUM": 4}, "cats": []}
+{"group": "benign", "label": "benign", "name": "xiaohongshu-cn", "secs": 15.85, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "agentwallet", "secs": 14.27, "verdict": "SAFE", "score": 9, "counts": {"MEDIUM": 2}, "cats": []}
+{"group": "benign", "label": "benign", "name": "smart-auto-updater", "secs": 17.09, "verdict": "SAFE", "score": 6, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "open-construction-estimate", "secs": 17.3, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "aria2", "secs": 15.04, "verdict": "SAFE", "score": 10, "counts": {"MEDIUM": 3}, "cats": []}
+{"group": "benign", "label": "benign", "name": "context-engineering", "secs": 15.81, "verdict": "SAFE", "score": 14, "counts": {"MEDIUM": 3}, "cats": []}
+{"group": "benign", "label": "benign", "name": "screenshot", "secs": 16.18, "verdict": "CAUTION", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "competitor-watch", "secs": 16.51, "verdict": "SAFE", "score": 6, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "mx-stocks-screener", "secs": 15.85, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "cli-anything", "secs": 16.06, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "clawdbot-sync", "secs": 18.27, "verdict": "DO_NOT_INSTALL", "score": 69, "counts": {"HIGH": 3, "MEDIUM": 1}, "cats": ["Privilege Escalation", "Supply Chain", "Tool Misuse"]}
+{"group": "benign", "label": "benign", "name": "vision", "secs": 15.89, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "sendclaw", "secs": 17.29, "verdict": "SAFE", "score": 6, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "clawcall", "secs": 17.63, "verdict": "CAUTION", "score": 3, "counts": {"LOW": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "runesleo-systematic-debugging", "secs": 14.62, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "maxxit-lazy-trading", "secs": 16.67, "verdict": "SAFE", "score": 13, "counts": {"MEDIUM": 2}, "cats": []}
+{"group": "benign", "label": "benign", "name": "translate", "secs": 16.45, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "video-prompting-guide", "secs": 14.64, "verdict": "CAUTION", "score": 34, "counts": {"HIGH": 1, "MEDIUM": 5}, "cats": ["Supply Chain"]}
+{"group": "benign", "label": "benign", "name": "linkedin-lead-generation", "secs": 14.51, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "brainstorming-tazio", "secs": 14.45, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "delegation", "secs": 16.46, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "docx-generator", "secs": 16.4, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "tiktok-uploader", "secs": 16.31, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "hidpi-mouse", "secs": 16.66, "verdict": "CAUTION", "score": 21, "counts": {"HIGH": 1}, "cats": ["Tool Misuse"]}
+{"group": "benign", "label": "benign", "name": "ths-advanced-analysis", "secs": 17.2, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "adaptive-reasoning", "secs": 15.89, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "gong", "secs": 16.31, "verdict": "CAUTION", "score": 49, "counts": {"HIGH": 4, "MEDIUM": 5}, "cats": ["Privilege Escalation"]}
+{"group": "benign", "label": "benign", "name": "notion-api-skill", "secs": 17.63, "verdict": "SAFE", "score": 11, "counts": {"MEDIUM": 3}, "cats": []}
+{"group": "benign", "label": "benign", "name": "bob-p2p-beta", "secs": 37.94, "verdict": "DO_NOT_INSTALL", "score": 78, "counts": {"HIGH": 1, "MEDIUM": 7, "LOW": 39}, "cats": ["Supply Chain"]}
+{"group": "benign", "label": "benign", "name": "moltarb", "secs": 16.81, "verdict": "SAFE", "score": 10, "counts": {"MEDIUM": 4}, "cats": []}
+{"group": "benign", "label": "benign", "name": "jisu-baidu", "secs": 16.08, "verdict": "CAUTION", "score": 21, "counts": {"HIGH": 1}, "cats": ["MCP Tool Poisoning"]}
+{"group": "benign", "label": "benign", "name": "hodlxxi-bitcoin-identity", "secs": 14.23, "verdict": "CAUTION", "score": 23, "counts": {"HIGH": 1, "MEDIUM": 1}, "cats": ["Privilege Escalation"]}
+{"group": "benign", "label": "benign", "name": "messari-crypto", "secs": 15.69, "verdict": "SAFE", "score": 9, "counts": {"MEDIUM": 5}, "cats": []}
+{"group": "benign", "label": "benign", "name": "readwise", "secs": 16.21, "verdict": "SAFE", "score": 7, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "ai-sentinel", "secs": 17.15, "verdict": "DO_NOT_INSTALL", "score": 83, "counts": {"HIGH": 5}, "cats": ["Privilege Escalation", "Prompt Injection", "System Prompt Leakage", "YARA Match"]}
+{"group": "benign", "label": "benign", "name": "clawtunes", "secs": 15.71, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "clawnema", "secs": 15.77, "verdict": "SAFE", "score": 12, "counts": {"MEDIUM": 8}, "cats": []}
+{"group": "benign", "label": "benign", "name": "modular-market-brief", "secs": 15.75, "verdict": "SAFE", "score": 7, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "market-research-agent", "secs": 15.58, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "causal-inference", "secs": 19.1, "verdict": "CAUTION", "score": 34, "counts": {"MEDIUM": 6, "LOW": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "zalo", "secs": 14.37, "verdict": "CAUTION", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "janee", "secs": 44.49, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"CRITICAL": 1, "HIGH": 22, "MEDIUM": 28, "LOW": 227}, "cats": ["Privilege Escalation", "Supply Chain", "Tool Misuse"]}
+{"group": "benign", "label": "benign", "name": "podpoint", "secs": 16.84, "verdict": "CAUTION", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "alby-bitcoin-payments-cli-skill", "secs": 14.51, "verdict": "SAFE", "score": 12, "counts": {"MEDIUM": 3}, "cats": []}
+{"group": "benign", "label": "benign", "name": "wisdom-accountability-coach", "secs": 17.38, "verdict": "SAFE", "score": 20, "counts": {"HIGH": 1}, "cats": ["Anti-Refusal"]}
+{"group": "benign", "label": "benign", "name": "wallet-pilot", "secs": 16.42, "verdict": "SAFE", "score": 7, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "basecamp", "secs": 17.63, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "self-evolution", "secs": 18.41, "verdict": "CAUTION", "score": 21, "counts": {"MEDIUM": 3}, "cats": []}
+{"group": "benign", "label": "benign", "name": "nia", "secs": 16.56, "verdict": "DO_NOT_INSTALL", "score": 69, "counts": {"HIGH": 1, "MEDIUM": 22}, "cats": ["Memory Poisoning"]}
+{"group": "benign", "label": "benign", "name": "parcel-package-tracking", "secs": 14.62, "verdict": "CAUTION", "score": 18, "counts": {"MEDIUM": 3}, "cats": []}
+{"group": "benign", "label": "benign", "name": "invoice", "secs": 14.71, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "inkos", "secs": 20.01, "verdict": "DO_NOT_INSTALL", "score": 69, "counts": {"HIGH": 3, "MEDIUM": 2}, "cats": ["Excessive Agency", "Rogue Agent"]}
+{"group": "benign", "label": "benign", "name": "book-landscaper", "secs": 13.35, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "intelligent-budget-tracker", "secs": 16.31, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "ab-test-setup", "secs": 15.83, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "workout-logger", "secs": 15.13, "verdict": "SAFE", "score": 7, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "snaprender", "secs": 17.72, "verdict": "SAFE", "score": 10, "counts": {"MEDIUM": 5}, "cats": []}
+{"group": "benign", "label": "benign", "name": "flutter", "secs": 17.6, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "clawarena", "secs": 19.54, "verdict": "CAUTION", "score": 26, "counts": {"HIGH": 1, "MEDIUM": 2}, "cats": ["Privilege Escalation"]}
+{"group": "benign", "label": "benign", "name": "akshare-zh", "secs": 23.53, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "joko-jobhunter", "secs": 18.53, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "nzbget", "secs": 16.93, "verdict": "SAFE", "score": 16, "counts": {"MEDIUM": 2}, "cats": []}
+{"group": "benign", "label": "benign", "name": "volc-docs", "secs": 16.13, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "security-dashboard", "secs": 16.57, "verdict": "DO_NOT_INSTALL", "score": 62, "counts": {"HIGH": 3, "MEDIUM": 20, "LOW": 1}, "cats": ["Tool Misuse"]}
+{"group": "benign", "label": "benign", "name": "session-cost", "secs": 16.87, "verdict": "CAUTION", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "glab-opentofu", "secs": 14.69, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "irish-takeaway", "secs": 17.53, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "data-analysis", "secs": 17.93, "verdict": "CAUTION", "score": 22, "counts": {"HIGH": 1}, "cats": ["Rogue Agent"]}
+{"group": "benign", "label": "benign", "name": "clawsignal", "secs": 17.29, "verdict": "SAFE", "score": 6, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "snowflake-mcp", "secs": 18.68, "verdict": "DO_NOT_INSTALL", "score": 65, "counts": {"HIGH": 5, "MEDIUM": 3}, "cats": ["Agent Snooping", "Privilege Escalation"]}
+{"group": "benign", "label": "benign", "name": "word-docx", "secs": 18.14, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "nadfun-token-creation", "secs": 15.78, "verdict": "SAFE", "score": 10, "counts": {"MEDIUM": 6}, "cats": []}
+{"group": "benign", "label": "benign", "name": "basecamp-automation", "secs": 18.78, "verdict": "CAUTION", "score": 22, "counts": {"HIGH": 1}, "cats": ["Prompt Injection"]}
+{"group": "benign", "label": "benign", "name": "brevo-api", "secs": 19.32, "verdict": "CAUTION", "score": 10, "counts": {"MEDIUM": 4}, "cats": []}
+{"group": "benign", "label": "benign", "name": "agentsbank", "secs": 18.02, "verdict": "SAFE", "score": 5, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "agent-wallet-cli", "secs": 17.24, "verdict": "CAUTION", "score": 14, "counts": {"MEDIUM": 2}, "cats": []}
+{"group": "benign", "label": "benign", "name": "searxng", "secs": 18.02, "verdict": "DO_NOT_INSTALL", "score": 100, "counts": {"CRITICAL": 1, "HIGH": 3, "MEDIUM": 8}, "cats": ["Data Flow", "Rogue Agent", "Tool Misuse"]}
+{"group": "benign", "label": "benign", "name": "erc8004-agent", "secs": 17.77, "verdict": "DO_NOT_INSTALL", "score": 51, "counts": {"HIGH": 20, "MEDIUM": 9}, "cats": ["Privilege Escalation"]}
+{"group": "benign", "label": "benign", "name": "openclaw-starter-guide", "secs": 16.36, "verdict": "SAFE", "score": 10, "counts": {"MEDIUM": 4}, "cats": []}
+{"group": "benign", "label": "benign", "name": "google-analytics-api", "secs": 14.86, "verdict": "SAFE", "score": 11, "counts": {"MEDIUM": 4}, "cats": []}
+{"group": "benign", "label": "benign", "name": "apify-ultimate-scraper", "secs": 16.86, "verdict": "CAUTION", "score": 5, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "apewisdom", "secs": 13.47, "verdict": "SAFE", "score": 7, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "mobb-vulnerabilities-fixer", "secs": 14.19, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "documents", "secs": 16.08, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "clawtopia", "secs": 17.28, "verdict": "CAUTION", "score": 26, "counts": {"HIGH": 1, "MEDIUM": 2}, "cats": ["Privilege Escalation"]}
+{"group": "benign", "label": "benign", "name": "otp-challenger", "secs": 26.36, "verdict": "CAUTION", "score": 49, "counts": {"HIGH": 1, "MEDIUM": 19}, "cats": ["Rogue Agent"]}
+{"group": "benign", "label": "benign", "name": "mermaid", "secs": 16.15, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "find-skills-skill", "secs": 16.09, "verdict": "SAFE", "score": 12, "counts": {"MEDIUM": 10}, "cats": []}
+{"group": "benign", "label": "benign", "name": "gift-genius", "secs": 18.44, "verdict": "SAFE", "score": 6, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "todoist", "secs": 15.4, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "sell-evoweb-ai", "secs": 16.63, "verdict": "SAFE", "score": 5, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "portfolio-tracker", "secs": 13.85, "verdict": "CAUTION", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "deep-research-agent", "secs": 15.84, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "news-aggregator", "secs": 16.04, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "ansible", "secs": 15.98, "verdict": "SAFE", "score": 11, "counts": {"MEDIUM": 2}, "cats": []}
+{"group": "benign", "label": "benign", "name": "task-tracker", "secs": 21.37, "verdict": "SAFE", "score": 7, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "straker-verify", "secs": 15.88, "verdict": "SAFE", "score": 6, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "clawhub-skill-2", "secs": 14.45, "verdict": "SAFE", "score": 8, "counts": {"MEDIUM": 2}, "cats": []}
+{"group": "benign", "label": "benign", "name": "form-cro", "secs": 15.88, "verdict": "SAFE", "score": 7, "counts": {"MEDIUM": 1}, "cats": []}
+{"group": "benign", "label": "benign", "name": "vhs-recorder", "secs": 16.71, "verdict": "DO_NOT_INSTALL", "score": 61, "counts": {"HIGH": 3, "MEDIUM": 2}, "cats": ["Tool Misuse"]}
+{"group": "benign", "label": "benign", "name": "tl-dw", "secs": 16.6, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "claw-backup", "secs": 15.99, "verdict": "CAUTION", "score": 47, "counts": {"HIGH": 2, "MEDIUM": 1, "LOW": 1}, "cats": ["Supply Chain", "Tool Misuse"]}
+{"group": "benign", "label": "benign", "name": "molt-chess", "secs": 22.44, "verdict": "DO_NOT_INSTALL", "score": 64, "counts": {"HIGH": 9, "MEDIUM": 10, "LOW": 3}, "cats": ["Privilege Escalation"]}
+{"group": "benign", "label": "benign", "name": "workspace-manager", "secs": 16.69, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "zoho-calendar", "secs": 17.6, "verdict": "CAUTION", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "deep-thinking", "secs": 16.4, "verdict": "SAFE", "score": 0, "counts": {}, "cats": []}
+{"group": "benign", "label": "benign", "name": "schedule", "secs": 15.85, "verdict": "SAFE", "score": 18, "counts": {"HIGH": 1}, "cats": ["YARA Match"]}

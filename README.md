@@ -4,6 +4,18 @@ A static safety check for AI agent skills, plugins and prompt packs **before you
 
 It reads every file in a skill folder or `.zip` / `.skill` archive and flags known red flags. It never runs, imports or installs anything it scans. One file, Python 3.9+, standard library only.
 
+## How well it works
+
+Measured on a sealed sample of 281 malicious and 199 clean skills from the independent [MalSkillBench](https://github.com/lxyeternal/MalSkillBench) dataset, with scoring rules fixed before the run:
+
+| | Malicious skills blocked | False alarms on clean skills | Time per skill |
+|---|---|---|---|
+| **ai-skill-guard 0.3.0** | **60.5%** | 11.1% | 0.3 s |
+| NVIDIA SkillSpector 2.12.0 (static, `--no-llm`) | 33.8% | 12.1% | 16 s |
+| ai-skill-guard 0.2.1 | 31.7% | 12.6% | 0.3 s |
+
+Roughly 4 in 10 malicious skills still get through, so a clean report is never a guarantee. Method, per-category results, limitations and everything needed to repeat it: [BENCHMARK.md](BENCHMARK.md).
+
 ## Which agents it works with
 
 ai-skill-guard does not depend on any one agent. It reads files, so it works on anything you would hand to an AI agent: a skill in the `SKILL.md` format, a plugin, a folder of prompts or rules, an MCP server's source code, or a plain script.
@@ -47,7 +59,7 @@ You can also point it at a `.zip` or `.skill` file, at a single file, or at a sk
 ## Reading the report
 
 ```text
-ai-skill-guard 0.2.1  |  demo-skill
+ai-skill-guard 0.3.0  |  demo-skill
 skill: pretty-notes
 files scanned: 2
 findings: critical 1, high 1, low 1
@@ -96,23 +108,26 @@ Exit codes: `0` nothing at or above `--fail-on` (default `high`), `1` findings a
 
 | Category | Examples |
 |---|---|
-| remote-exec | `curl … \| bash`, `iwr … \| iex`, `DownloadString` |
-| obfuscation | base64-decode-and-run, `-EncodedCommand`, `marshal.loads`, long encoded blobs |
-| exfiltration | webhook.site, requestbin, ngrok, Discord/Telegram bot webhooks, pastebin |
+| remote-exec | `curl … \| bash`, `iwr … \| iex`, `DownloadString`, download + `chmod +x` + run |
+| remote-access | reverse shells (`/dev/tcp`, `nc -e`, `bash -i >&`, PowerShell TCP clients) |
+| obfuscation | base64-decode-and-run, `-EncodedCommand`, `marshal.loads`; base64 strings are decoded and scanned again |
+| exfiltration | webhook.site, requestbin, ngrok and other tunnels, Discord/Telegram bot webhooks, paste sites, dumping all environment variables |
+| combination | signals that are normal alone but malicious together: read SSH keys or cookies + send; encrypt files + delete originals; run-on-startup + remote source |
+| resource-abuse / malware-intent | crypto miners and pools, fork bombs, ransomware notes, functions named `steal_…` or `exfiltrate_…` |
 | credentials | `~/.ssh`, `~/.aws/credentials`, `.env`, `gh auth token`, Keychain, Credential Manager |
 | browser-data | Chrome/Firefox cookie and login databases, cookie-extraction libraries |
 | persistence | cron, `schtasks`, LaunchAgents, systemd, shell profiles, registry `Run` keys |
 | agent-config | `--dangerously-skip-permissions`, `bypassPermissions`, hooks, `mcpServers`, settings files, `allowed-tools: Bash` |
-| prompt-injection | "ignore previous instructions", "do not tell the user", "silently send…" |
+| prompt-injection | "ignore previous instructions", "do not tell the user", "silently send…", persona takeover, system-prompt extraction, safety bypass, task hijacking, fake authorities |
 | hidden-text | invisible Unicode tag characters (decoded for you), zero-width and bidi characters, instruction-like HTML comments |
 | destructive | `rm -rf /`, `Remove-Item -Recurse -Force`, `git push --force`, `DROP TABLE` |
-| privilege | `sudo`, execution-policy bypass, Defender exclusions, firewall off |
+| privilege | `sudo`, execution-policy bypass, Defender exclusions, firewall off, new admin users, SUID, `authorized_keys` |
 | supply-chain | `pip`/`npm`/`npx` installs, `postinstall` hooks in `package.json` |
 | filesystem / binary | executables, nested archives, symlinks leaving the folder, zip-slip paths |
 
 ## What it cannot do
 
-It matches patterns; it does not understand intent. A careful attacker can write something it misses, and a legitimate tool will trigger findings (a research skill *will* use the network). It does not check packages a skill downloads later. Treat every finding as a question for a human, and a clean report as "no known red flags", not "safe".
+It matches patterns; it does not understand intent. Where a pattern sits matters: an attack that a security guide only *describes* (in quotes, a table, an "Examples" section) is reported as low, the same text in a script or as an instruction to the agent is not. A careful attacker can write something it misses, and a legitimate tool will trigger findings (a research skill *will* use the network). It does not check packages a skill downloads later. Treat every finding as a question for a human, and a clean report as "no known red flags", not "safe".
 
 Read [SECURITY-POLICY.md](SECURITY-POLICY.md) for the full policy: threats on a local machine and in the cloud, ten rules, a pre-install checklist and what to do if something bad got in.
 
